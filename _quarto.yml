@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Marco Pelliccia"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+
+  page-footer:
+    left: "© Marco Pelliccia"
+    right:
+      - icon: github
+        href: https://github.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/marcopelliccia
+      - icon: envelope
+        href: mailto:mpellicciawork@gmail.com
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: false
+    include-before-body: network-nav.html

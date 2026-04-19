@@ -1,0 +1,28 @@
+---
+title: "Research"
+page-layout: full
+---
+
+## Working Papers
+
+**Incentive Design on Networks** (with A. Daripa and S. Kapur)
+<br>Examines how incentive structures can be optimally designed to induce the formation of socially optimal networks.
+<br>[[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4312506)
+
+---
+
+**Network Structures and Credit Rating** (with A. Daripa and S. Kapur)
+<br>We ask if consistent credit rating — where agents' ratings are increasing in their productivity — is possible using network characteristics alone.
+<br>[[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3446432)
+
+---
+
+## Published Papers
+
+**Decentralized Defence and Security in Networked Systems**
+<br>*Defence and Peace Economics*, 2019.
+
+---
+
+**Centrality in Trade Networks and Investment in Security** (with V. Bove and L. Elia)
+<br>*Peace Economics, Peace Science and Public Policy*, 2016.
