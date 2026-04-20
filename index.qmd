@@ -6,9 +6,6 @@ page-layout: full
 about:
   template: trestles
   links:
-    - icon: github
-      text: GitHub
-      href: https://github.com
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
@@ -21,11 +18,11 @@ about:
 
 ## About 
 
-I am an economist and Assistant Professor at Edinburgh Business School, Heriot-Watt University. I hold a PhD in Economics from Birkbeck, University of London, where I specialised in network economics and game theory.
+I am an economist and Assistant Professor at Edinburgh Business School, Heriot-Watt University. I hold a PhD in Economics from Birkbeck, University of London, where I specialised in the economics of networks and game theory.
 
 My research focuses on how strategic interactions and interdependencies across agents shape economic outcomes, with applications to market design, policy analysis, and risk in interconnected systems.
 
-I have over eight years' experience in higher education, teaching courses in microeconomics, game theory, and economic policy. I have also completed the MIT Applied Data Science Program, where I worked on machine learning models for prediction and risk assessment.
+I have over ten years' experience in higher education, teaching courses in microeconomics, game theory, and economic policy. I have also completed the MIT Applied Data Science Program, where I developed applied skills in machine learning, statistical modelling, and AI for data-driven decision-making.
 
 [Download CV](https://www.dropbox.com/scl/fi/n0wkjcrwjxm8phx2dq726/CV_MP.pdf?rlkey=cx2f5yeqqj0vmzupmdwbetg2v&e=1&st=jq6t2pyb&dl=0){.btn .btn-outline-primary target="_blank"}
 
@@ -36,7 +33,9 @@ I have over eight years' experience in higher education, teaching courses in mic
 - Market Design & Policy Analysis
 - Machine Learning & Data-Driven Analysis
 
-## Chat with Marco: Ask about research, teaching, and background
+<!--
+## Ask about research, teaching, and background
+
 
 
 
@@ -48,4 +47,5 @@ I have over eight years' experience in higher education, teaching courses in mic
   </div>
 </div>
 ```
+-->
 

@@ -5,16 +5,24 @@ page-layout: full
 
 ## Current courses
 
-Introduction to Public Choice and Welfare Economics
+**Introduction to Public Choice and Welfare Economics**
+<br> This course examines the economic foundations of public policy, focusing on how different normative frameworks define welfare, why market failures and social dilemmas arise, 
+and how policy interventions can address them, while accounting for strategic behaviour, institutional constraints, and ethical considerations in real-world policymaking.
 
 ---
 
-Intermediate Economics I
+**Intermediate Economics I**
+<br> This course provides an intermediate-level foundation in microeconomics, focusing on how consumers, firms, and markets make decisions, 
+and developing the analytical tools needed to study consumer choice, firm behaviour, market structures, and strategic interaction through game theory, with an emphasis on applying theory to real-world economic problems and policy analysis.
 
 ---
 
-Games and Behaviour
+**Games and Behaviour**
+<br> This course examines decision-making under risk and uncertainty, including deviations from standard expected utility theory, 
+and studies how such behaviour shapes strategic interaction using the tools of game theory, with applications to oligopoly markets where firms compete and coordinate under interdependence and incentives.
 
 ---
 
-Introduction to Economic and Financial Analysis
+**Introduction to Economic and Financial Analysis**
+<br> This course provides a foundation in the mathematical tools used in economics and finance, covering algebra, functions, calculus, 
+and optimisation, with an emphasis on applying these methods to economic models and problems, and complementing analytical skills with basic Python programming for computational problem-solving.

@@ -5,7 +5,7 @@
 }
 
 .navbar .nav-link {
-  color: #e0e0e0 !important;
+  color: #90ee90 !important;
 }
 
 .navbar .nav-link:hover {
@@ -118,4 +118,10 @@ gradio-app iframe {
 .gradio-container {
   width: 100% !important;
   max-width: 100% !important;
+}
+
+
+/* Green color for course titles on Teaching page */
+.page-layout-full strong {
+  color: #90ee90;
 }
