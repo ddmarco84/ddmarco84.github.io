@@ -1,0 +1,127 @@
+/* Navbar */
+.navbar {
+  background-color: #1e1e1e !important;
+  border-bottom: 1px solid #2d2d4e;
+}
+
+.navbar .nav-link {
+  color: #90ee90 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+
+/* Wider content area */
+.quarto-container {
+  max-width: 1200px !important;
+}
+
+/* Wider about page layout */
+.about-contents {
+  max-width: 1200px !important;
+}
+
+
+/* Widen the main container */
+.page-layout-article .quarto-container {
+  max-width: 100% !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.page-columns {
+  max-width: 100% !important;
+}
+
+/* Fix trestles layout */
+.quarto-about-trestles {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 2rem !important;
+  width: 100% !important;
+}
+
+.quarto-about-trestles .about-entity {
+  flex: 0 0 400px !important;
+  width: 400px !important;
+}
+
+.quarto-about-trestles .about-contents {
+  padding-left: 3rem !important;
+    flex: 1 1 auto !important;
+  min-width: 0 !important;
+  width: 100% !important;
+}
+
+/* CV download button */
+.btn-outline-primary {
+  color: #90ee90 !important;
+  border-color: #90ee90 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #90ee90 !important;
+  color: #000000 !important;
+}
+
+
+/* Network animation */
+#holder {
+  width: 100%;
+  height: 260px;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+
+.navbar {
+  background-color: transparent !important;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 2 !important;
+}
+
+.navbar-brand, .nav-link {
+  position: relative;
+  z-index: 3 !important;
+}
+
+/* Space between navbar and body */
+#quarto-content {
+  margin-top: 80px !important;
+  padding-top: 1rem !important;
+}
+
+/* Remove blue bar under navbar */
+.navbar {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Make gradio chatbot full width */
+gradio-app {
+  width: 100% !important;
+}
+
+gradio-app iframe {
+  width: 100% !important;
+}
+
+.gradio-container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+
+/* Green color for course titles on Teaching page */
+.page-layout-full strong {
+  color: #90ee90;
+}
