@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – yes</title>
+<title>About – Marco Pelliccia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-00feface57a40fb7a06c8694f9a70c45.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">yes</span>
+    <span class="navbar-title">Marco Pelliccia</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,8 +97,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -111,11 +115,170 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<style>
+
+#nav-network {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 60px;
+
+  z-index: 1;
+
+  overflow: hidden;
+
+}
+
+</style>
+
+<div id="nav-network"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+
+<script>
+
+const NODES = 40;
+
+const LINK_DISTANCE = 110;
+
+const SPEED = 0.35;
+
+const NODE_SIZE = 2;
+
+const LINE_BASE_ALPHA = 120;
+
+const LINE_MAX_THICK = 1.6;
+
+const LINE_MIN_THICK = 0.3;
+
+const FG_COLOR = [255, 255, 255];
+
+const BG_COLOR = [30, 30, 30];
+
+const HEIGHT = 60;
+
+let nodes = [];
+
+let holder;
+
+let c;
+
+function setup() {
+
+  holder = document.getElementById('nav-network');
+
+  c = createCanvas(windowWidth, HEIGHT);
+
+  c.parent(holder);
+
+  pixelDensity(1);
+
+  initNodes();
+
+}
+
+function windowResized() {
+
+  resizeCanvas(windowWidth, HEIGHT);
+
+}
+
+function initNodes() {
+
+  nodes = [];
+
+  for (let i = 0; i < NODES; i++) {
+
+    nodes.push({
+
+      x: random(width),
+
+      y: random(HEIGHT),
+
+      vx: random(-SPEED, SPEED),
+
+      vy: random(-SPEED, SPEED)
+
+    });
+
+  }
+
+}
+
+function draw() {
+
+  background(BG_COLOR[0], BG_COLOR[1], BG_COLOR[2]);
+
+  for (let n of nodes) {
+
+    n.x += n.vx;
+
+    n.y += n.vy;
+
+    n.vx += random(-0.02, 0.02);
+
+    n.vy += random(-0.02, 0.02);
+
+    n.vx = constrain(n.vx, -SPEED, SPEED);
+
+    n.vy = constrain(n.vy, -SPEED, SPEED);
+
+    if (n.x < 0) n.x += width;
+
+    if (n.x > width) n.x -= width;
+
+    if (n.y < 0) n.y += HEIGHT;
+
+    if (n.y > HEIGHT) n.y -= HEIGHT;
+
+  }
+
+  for (let i = 0; i < nodes.length; i++) {
+
+    for (let j = i + 1; j < nodes.length; j++) {
+
+      const a = nodes[i], b = nodes[j];
+
+      const d = dist(a.x, a.y, b.x, b.y);
+
+      if (d < LINK_DISTANCE) {
+
+        const t = 1 - d / LINK_DISTANCE;
+
+        const alpha = LINE_BASE_ALPHA * t;
+
+        const w = LINE_MIN_THICK + t * (LINE_MAX_THICK - LINE_MIN_THICK);
+
+        strokeWeight(w);
+
+        stroke(FG_COLOR[0], FG_COLOR[1], FG_COLOR[2], alpha);
+
+        line(a.x, a.y, b.x, b.y);
+
+      }
+
+    }
+
+  }
+
+  noStroke();
+
+  fill(FG_COLOR[0], FG_COLOR[1], FG_COLOR[2]);
+
+  for (let n of nodes) circle(n.x, n.y, NODE_SIZE);
+
+}
+
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -542,6 +705,38 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Marco Pelliccia</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/marcopelliccia">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:mpellicciawork@gmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

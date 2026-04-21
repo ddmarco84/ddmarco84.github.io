@@ -16,6 +16,8 @@ about:
 
 
 
+
+
 ## About 
 
 I am an economist and Assistant Professor at Edinburgh Business School, Heriot-Watt University. I hold a PhD in Economics from Birkbeck, University of London, where I specialised in the economics of networks and game theory.
@@ -32,6 +34,22 @@ I have over ten years' experience in higher education, teaching courses in micro
 - Network Economics & Game Theory
 - Market Design & Policy Analysis
 - Machine Learning & Data-Driven Analysis
+
+
+## News
+
+<ul class="news-list">
+  <li class="news-recent">Presented at TMF in London, January 2026, UK</li>
+  <li class="news-old">Presented at CMID24 in Budapest, June 2024, HU</li>
+  <li class="news-old">Presented at CoED23 in Girona, June 2023, ES</li>
+  <li class="news-old">Presented Networks and Econ Policy to Scottish Government Assistant Economists meeting, March 2023, UK</li>
+  <li class="news-old">Attended SGPE Conference in Crieff, January 2023, UK</li>
+  <li class="news-old">Presented at 2022 European ESA, August 2022, IT</li>
+  <li class="news-old">Presented at SUNBELT 2022, July 2022, AU</li>
+  <li class="news-old">Presented the CNEE Workshop "Economics of Networks", May 2022</li>
+</ul>
+:::
+
 
 <!--
 ## Ask about research, teaching, and background

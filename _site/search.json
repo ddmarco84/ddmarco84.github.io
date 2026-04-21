@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Marco Pelliccia",
-    "section": "",
-    "text": "I am an economist and Assistant Professor at Edinburgh Business School, Heriot-Watt University. I hold a PhD in Economics from Birkbeck, University of London, where I specialised in network economics and game theory.\nMy research focuses on how strategic interactions and interdependencies across agents shape economic outcomes, with applications to market design, policy analysis, and risk in interconnected systems.\nI have over eight years’ experience in higher education, teaching courses in microeconomics, game theory, and economic policy. I have also completed the MIT Applied Data Science Program, where I worked on machine learning models for prediction and risk assessment.\nDownload CV"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "teaching.html#current-courses",
+    "href": "teaching.html#current-courses",
+    "title": "Teaching",
+    "section": "Current courses",
+    "text": "Current courses\nIntroduction to Public Choice and Welfare Economics  This course examines the economic foundations of public policy, focusing on how different normative frameworks define welfare, why market failures and social dilemmas arise, and how policy interventions can address them, while accounting for strategic behaviour, institutional constraints, and ethical considerations in real-world policymaking.\n\nIntermediate Economics I  This course provides an intermediate-level foundation in microeconomics, focusing on how consumers, firms, and markets make decisions, and developing the analytical tools needed to study consumer choice, firm behaviour, market structures, and strategic interaction through game theory, with an emphasis on applying theory to real-world economic problems and policy analysis.\n\nGames and Behaviour  This course examines decision-making under risk and uncertainty, including deviations from standard expected utility theory, and studies how such behaviour shapes strategic interaction using the tools of game theory, with applications to oligopoly markets where firms compete and coordinate under interdependence and incentives.\n\nIntroduction to Economic and Financial Analysis  This course provides a foundation in the mathematical tools used in economics and finance, covering algebra, functions, calculus, and optimisation, with an emphasis on applying these methods to economic models and problems, and complementing analytical skills with basic Python programming for computational problem-solving."
   },
   {
     "objectID": "index.html#about",
@@ -28,11 +21,11 @@
     "text": "Research Interests\n\nMicroeconomic Theory\nNetwork Economics & Game Theory\nMarket Design & Policy Analysis\nMachine Learning & Data-Driven Analysis"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Incentive Design on Networks (with A. Daripa and S. Kapur) Examines how incentive structures can be optimally designed to induce the formation of socially optimal networks. [SSRN]\n\nNetwork Structures and Credit Rating (with A. Daripa and S. Kapur) We ask if consistent credit rating — where agents’ ratings are increasing in their productivity — is possible using network characteristics alone. [SSRN]"
+    "text": "About this site"
   },
   {
     "objectID": "research.html#working-papers",
@@ -49,45 +42,10 @@
     "text": "Published Papers\nDecentralized Defence of a (Directed) Network Structure, Defence and Peace Economics, 2020.  I analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.\n\nCentrality in Trade Networks and Investment in Security (with V. Bove and L. Elia), Peace Economics, Peace Science and Public Policy, 2016.  We show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "** Introduction to Public Choice and Welfare Economics\n\n** Intermediate Economics I\n\n** Games and Behaviour\n\n** Introduction to Economic and Financial Analysis"
-  },
-  {
-    "objectID": "teaching.html#current-courses",
-    "href": "teaching.html#current-courses",
-    "title": "Teaching",
-    "section": "Current courses",
-    "text": "Current courses\nIntroduction to Public Choice and Welfare Economics  This course examines the economic foundations of public policy, focusing on how different normative frameworks define welfare, why market failures and social dilemmas arise, and how policy interventions can address them, while accounting for strategic behaviour, institutional constraints, and ethical considerations in real-world policymaking —\nIntermediate Economics I  This course provides an intermediate-level foundation in microeconomics, focusing on how consumers, firms, and markets make decisions, and developing the analytical tools needed to study consumer choice, firm behaviour, market structures, and strategic interaction through game theory, with an emphasis on applying theory to real-world economic problems and policy analysis\n\nGames and Behaviour  This course examines decision-making under risk and uncertainty, including deviations from standard expected utility theory, and studies how such behaviour shapes strategic interaction using the tools of game theory, with applications to oligopoly markets where firms compete and coordinate under interdependence and incentives.\n\nIntroduction to Economic and Financial Analysis  This course provides a foundation in the mathematical tools used in economics and finance, covering algebra, functions, calculus, and optimisation, with an emphasis on applying these methods to economic models and problems, and complementing analytical skills with basic Python programming for computational problem-solving"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
+    "objectID": "index.html#news",
+    "href": "index.html#news",
     "title": "Marco Pelliccia",
-    "section": "About me",
-    "text": "About me\nI am an economist and Assistant Professor at Edinburgh Business School, Heriot-Watt University. I hold a PhD in Economics from Birkbeck, University of London, where I specialised in network economics and game theory.\nMy research focuses on how strategic interactions and interdependencies across agents shape economic outcomes, with applications to market design, policy analysis, and risk in interconnected systems.\nI have over eight years’ experience in higher education, teaching courses in microeconomics, game theory, and economic policy. I have also completed the MIT Applied Data Science Program, where I worked on machine learning models for prediction and risk assessment.\nDownload CV"
-  },
-  {
-    "objectID": "index.html#chat-with-marco",
-    "href": "index.html#chat-with-marco",
-    "title": "Marco Pelliccia",
-    "section": "Chat with Marco",
-    "text": "Chat with Marco\n\n\n  \n    Ask about research, teaching, or background"
-  },
-  {
-    "objectID": "index.html#chat-with-marco-ask-about-research-teaching-and-background",
-    "href": "index.html#chat-with-marco-ask-about-research-teaching-and-background",
-    "title": "Marco Pelliccia",
-    "section": "Chat with Marco: Ask about research, teaching, and background",
-    "text": "Chat with Marco: Ask about research, teaching, and background"
-  },
-  {
-    "objectID": "index.html#ask-about-research-teaching-and-background",
-    "href": "index.html#ask-about-research-teaching-and-background",
-    "title": "Marco Pelliccia",
-    "section": "Ask about research, teaching, and background",
-    "text": "Ask about research, teaching, and background"
+    "section": "News",
+    "text": "News\n\n\nPresented at TMF in London, January 2026, UK\n\n\nPresented at CMID24 in Budapest, June 2024, HU\n\n\nPresented at CoED23 in Girona, June 2023, ES\n\n\nPresented Networks and Econ Policy to Scottish Government Assistant Economists meeting, March 2023, UK\n\n\nAttended SGPE Conference in Crieff, January 2023, UK\n\n\nPresented at 2022 European ESA, August 2022, IT\n\n\nPresented at SUNBELT 2022, July 2022, AU\n\n\nPresented the CNEE Workshop “Economics of Networks”, May 2022\n\n\n:::"
   }
 ]
