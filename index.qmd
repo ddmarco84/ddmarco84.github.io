@@ -48,7 +48,6 @@ I have over ten years' experience in higher education, teaching courses in micro
   <li class="news-old">Presented at SUNBELT 2022, July 2022, AU</li>
   <li class="news-old">Presented the CNEE Workshop "Economics of Networks", May 2022</li>
 </ul>
-:::
 
 
 <!--
