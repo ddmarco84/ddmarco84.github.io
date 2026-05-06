@@ -7,8 +7,6 @@ page-layout: full
 
 **Loan Default Prediction and Lending Decision Analysis**
 
-<br>
-
-Portfolio project using the HMEQ home-equity loan dataset to predict loan default risk, compare classification models, and translate model predictions into lending decision costs.
+<br> Portfolio project using the HMEQ home-equity loan dataset to predict loan default risk, compare classification models, and translate model predictions into lending decision costs.
 
 [View project on GitHub](https://github.com/ddmarco84/project)
