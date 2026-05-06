@@ -42,6 +42,13 @@
     "text": "Published Papers\nDecentralized Defence of a (Directed) Network Structure, Defence and Peace Economics, 2020.  I analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.\n\nCentrality in Trade Networks and Investment in Security (with V. Bove and L. Elia), Peace Economics, Peace Science and Public Policy, 2016.  We show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions."
   },
   {
+    "objectID": "projects.html#extra-projects",
+    "href": "projects.html#extra-projects",
+    "title": "Projects",
+    "section": "Extra Projects",
+    "text": "Extra Projects\n** Loan Default Prediction and Lending Decision Analysis **  Portfolio project using the HMEQ home-equity loan dataset to predict loan default risk, compare classification models, and translate model predictions into lending decision costs."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
