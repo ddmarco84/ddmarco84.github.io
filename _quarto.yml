@@ -11,6 +11,8 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
+      - href: projects.qmd
+        text: Projects
 
   page-footer:
     left: "© Marco Pelliccia"
