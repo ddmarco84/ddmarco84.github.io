@@ -20,14 +20,15 @@ The analysis compares logistic regression, tree-based models, ensemble methods, 
 
 This NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.
 
-Agents belong to one of two groups and evaluate their local network neighbourhood according to the share of same-type neighbours. If they are unhappy, they may cut, create, or rewire links to improve their own utility. Because links are costly, agents balance the benefit of having similar neighbours against the cost of maintaining connections.
+The version implemented here uses a **threshold-flat utility function**. Each agent belongs to one of two groups and evaluates its local network neighbourhood according to the share of same-type neighbours. An agent is satisfied only if this share is at least as high as a chosen threshold, such as 40%, 50%, or 60%. Once the threshold is reached, however, the agent receives no additional composition benefit from having an even higher share of same-type neighbours. In this sense, agents do not directly prefer full segregation; they only require “enough” similarity in their immediate network.
 
-The model illustrates how decentralised individual choices can produce unintended aggregate outcomes. Even when agents do not require a very high share of similar neighbours, local link adjustments may gradually remove cross-group connections and generate segregated clusters. This highlights a network externality: agents change the opportunities and welfare of others when they alter links, but these effects are not fully internalised.
+Agents also face a cost of maintaining links. Their utility therefore balances two forces: the benefit of satisfying the similarity threshold and the cost of holding connections. If agents are unhappy, they may cut, create, or rewire links when doing so improves their own utility.
 
+The model illustrates how decentralised individual choices can produce unintended aggregate outcomes. Even when agents require only a moderate share of similar neighbours, local link adjustments may gradually remove cross-group connections and generate segregated clusters. This highlights a network externality: agents change the opportunities and welfare of others when they alter links, but these effects are not fully internalised.
 
-Users can experiment by choosing the number of agents, the desired percentage of similar neighbours, and the cost of maintaining links. After pressing **Setup**, the model creates an initial random network. Pressing **Go** lets unhappy agents update their links until the network reaches a stable outcome.
+Users can experiment by choosing the number of agents, the desired percentage of similar neighbours, the penalty for falling below the threshold, and the cost of maintaining links. After pressing **Setup**, the model creates an initial random network. Pressing **Go** lets unhappy agents update their links until the network reaches a stable outcome.
 
-Key outputs include the percentage of happy agents, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.
+Key outputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.
 
 <br>
 
