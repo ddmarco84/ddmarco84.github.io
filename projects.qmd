@@ -16,8 +16,17 @@ The analysis compares logistic regression, tree-based models, ensemble methods, 
 [View project on GitHub](https://github.com/ddmarco84/project)
 
 
-### Network Segregation Simulation
+### Network Segregation Model
 
-An interactive NetLogo model showing how individual preferences and network connections can produce aggregate patterns of segregation and clustering. The model allows users to vary tolerance, population size, and network structure, then observe how these parameters affect happiness, clustering, and welfare.
+This NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.
 
-[Run the NetLogo model](netlogo/model_var2.html)
+Agents belong to one of two groups and evaluate their local network neighbourhood according to the share of same-type neighbours. If they are unhappy, they may cut, create, or rewire links to improve their own utility. Because links are costly, agents balance the benefit of having similar neighbours against the cost of maintaining connections.
+
+The model illustrates how decentralised individual choices can produce unintended aggregate outcomes. Even when agents do not require a very high share of similar neighbours, local link adjustments may gradually remove cross-group connections and generate segregated clusters. This highlights a network externality: agents change the opportunities and welfare of others when they alter links, but these effects are not fully internalised.
+
+
+Users can experiment by choosing the number of agents, the desired percentage of similar neighbours, and the cost of maintaining links. After pressing **Setup**, the model creates an initial random network. Pressing **Go** lets unhappy agents update their links until the network reaches a stable outcome.
+
+Key outputs include the percentage of happy agents, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.
+
+[Run the NetLogo model](netlogo/model_final.html)
