@@ -230,10 +230,14 @@ function draw() {
 <p><strong>Tools and methods:</strong> Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.</p>
 <p><a href="https://github.com/ddmarco84/project">View project on GitHub</a></p>
 </section>
-<section id="network-segregation-simulation" class="level3">
-<h3 class="anchored" data-anchor-id="network-segregation-simulation">Network Segregation Simulation</h3>
-<p>An interactive NetLogo model showing how individual preferences and network connections can produce aggregate patterns of segregation and clustering. The model allows users to vary tolerance, population size, and network structure, then observe how these parameters affect happiness, clustering, and welfare.</p>
-<p><a href="netlogo/model_var2.html">Run the NetLogo model</a></p>
+<section id="network-segregation-model" class="level3">
+<h3 class="anchored" data-anchor-id="network-segregation-model">Network Segregation Model</h3>
+<p>This NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.</p>
+<p>Agents belong to one of two groups and evaluate their local network neighbourhood according to the share of same-type neighbours. If they are unhappy, they may cut, create, or rewire links to improve their own utility. Because links are costly, agents balance the benefit of having similar neighbours against the cost of maintaining connections.</p>
+<p>The model illustrates how decentralised individual choices can produce unintended aggregate outcomes. Even when agents do not require a very high share of similar neighbours, local link adjustments may gradually remove cross-group connections and generate segregated clusters. This highlights a network externality: agents change the opportunities and welfare of others when they alter links, but these effects are not fully internalised.</p>
+<p>Users can experiment by choosing the number of agents, the desired percentage of similar neighbours, and the cost of maintaining links. After pressing <strong>Setup</strong>, the model creates an initial random network. Pressing <strong>Go</strong> lets unhappy agents update their links until the network reaches a stable outcome.</p>
+<p>Key outputs include the percentage of happy agents, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.</p>
+<p><a href="netlogo/model_final.html">Run the NetLogo model</a></p>
 
 
 </section>
