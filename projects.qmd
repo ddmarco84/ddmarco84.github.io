@@ -1,9 +1,9 @@
 ---
-title: "Projects"
+title: "Extra Projects"
 page-layout: full
 ---
 
-## Extra Projects
+
 
 ### Loan Default Prediction and Lending Decision Analysis
 

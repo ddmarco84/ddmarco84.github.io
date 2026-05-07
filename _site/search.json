@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "teaching.html#current-courses",
+    "href": "teaching.html#current-courses",
+    "title": "Teaching",
+    "section": "Current courses",
+    "text": "Current courses\nIntroduction to Public Choice and Welfare Economics  This course examines the economic foundations of public policy, focusing on how different normative frameworks define welfare, why market failures and social dilemmas arise, and how policy interventions can address them, while accounting for strategic behaviour, institutional constraints, and ethical considerations in real-world policymaking.\n\nIntermediate Economics I  This course provides an intermediate-level foundation in microeconomics, focusing on how consumers, firms, and markets make decisions, and developing the analytical tools needed to study consumer choice, firm behaviour, market structures, and strategic interaction through game theory, with an emphasis on applying theory to real-world economic problems and policy analysis.\n\nGames and Behaviour  This course examines decision-making under risk and uncertainty, including deviations from standard expected utility theory, and studies how such behaviour shapes strategic interaction using the tools of game theory, with applications to oligopoly markets where firms compete and coordinate under interdependence and incentives.\n\nIntroduction to Economic and Financial Analysis  This course provides a foundation in the mathematical tools used in economics and finance, covering algebra, functions, calculus, and optimisation, with an emphasis on applying these methods to economic models and problems, and complementing analytical skills with basic Python programming for computational problem-solving."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Extra Projects",
+    "section": "",
+    "text": "Loan Default Prediction and Lending Decision Analysis\nA credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.\nThe analysis compares logistic regression, tree-based models, ensemble methods, and XGBoost, then evaluates not only classification performance but also the expected financial loss from false approvals and false rejections. The project highlights why lending models should be assessed using decision-relevant costs rather than accuracy alone.\nTools and methods: Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.\nView project on GitHub"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Marco Pelliccia",
+    "section": "About",
+    "text": "About\nI am an economist and Assistant Professor at Edinburgh Business School, Heriot-Watt University. I hold a PhD in Economics from Birkbeck, University of London, where I specialised in the economics of networks and game theory.\nMy research focuses on how strategic interactions and interdependencies across agents shape economic outcomes, with applications to market design, policy analysis, and risk in interconnected systems.\nI have over ten years’ experience in higher education, teaching courses in microeconomics, game theory, and economic policy. I have also completed the MIT Applied Data Science Program, where I developed applied skills in machine learning, statistical modelling, and AI for data-driven decision-making.\nDownload CV"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Marco Pelliccia",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nMicroeconomic Theory\nNetwork Economics & Game Theory\nMarket Design & Policy Analysis\nMachine Learning & Data-Driven Analysis"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Marco Pelliccia",
+    "section": "News",
+    "text": "News\n\n\nPresented at TMF in London, January 2026, UK\n\n\nPresented at CMID24 in Budapest, June 2024, HU\n\n\nPresented at CoED23 in Girona, June 2023, ES\n\n\nPresented Networks and Econ Policy to Scottish Government Assistant Economists meeting, March 2023, UK\n\n\nAttended SGPE Conference in Crieff, January 2023, UK\n\n\nPresented at 2022 European ESA, August 2022, IT\n\n\nPresented at SUNBELT 2022, July 2022, AU\n\n\nPresented the CNEE Workshop “Economics of Networks”, May 2022"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\nIncentive Design on Networks (with A. Daripa and S. Kapur)  We design a mechanism for network formation with privately known productivities that implements the socially optimal network through transfers based on opportunity costs, ensuring ex post incentive compatibility, pairwise stability, and budget balance. [SSRN]\n\nNetwork Structures and Credit Rating (with A. Daripa and S. Kapur)  We study whether productivity-consistent credit ratings can be inferred from endogenous network structure, showing that under suitable link costs equilibrium networks separate types and sustain ratings aligned with productivity. [SSRN]"
+  },
+  {
+    "objectID": "research.html#published-papers",
+    "href": "research.html#published-papers",
+    "title": "Research",
+    "section": "Published Papers",
+    "text": "Published Papers\nDecentralized Defence of a (Directed) Network Structure, Defence and Peace Economics, 2020.  I analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.\n\nCentrality in Trade Networks and Investment in Security (with V. Bove and L. Elia), Peace Economics, Peace Science and Public Policy, 2016.  We show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions."
+  }
+]
