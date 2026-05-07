@@ -46,7 +46,7 @@
     "href": "projects.html#extra-projects",
     "title": "Projects",
     "section": "Extra Projects",
-    "text": "Extra Projects\nLoan Default Prediction and Lending Decision Analysis\n Portfolio project using the HMEQ home-equity loan dataset to predict loan default risk, compare classification models, and translate model predictions into lending decision costs.\nView project on GitHub"
+    "text": "Extra Projects\n\nLoan Default Prediction and Lending Decision Analysis\nA credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.\nThe analysis compares logistic regression, tree-based models, ensemble methods, and XGBoost, then evaluates not only classification performance but also the expected financial loss from false approvals and false rejections. The project highlights why lending models should be assessed using decision-relevant costs rather than accuracy alone.\nTools and methods: Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.\nView project on GitHub"
   },
   {
     "objectID": "about.html",
