@@ -42,11 +42,11 @@
     "text": "Published Papers\nDecentralized Defence of a (Directed) Network Structure, Defence and Peace Economics, 2020.  I analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.\n\nCentrality in Trade Networks and Investment in Security (with V. Bove and L. Elia), Peace Economics, Peace Science and Public Policy, 2016.  We show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions."
   },
   {
-    "objectID": "projects.html#extra-projects",
-    "href": "projects.html#extra-projects",
-    "title": "Projects",
-    "section": "Extra Projects",
-    "text": "Extra Projects\n\nLoan Default Prediction and Lending Decision Analysis\nA credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.\nThe analysis compares logistic regression, tree-based models, ensemble methods, and XGBoost, then evaluates not only classification performance but also the expected financial loss from false approvals and false rejections. The project highlights why lending models should be assessed using decision-relevant costs rather than accuracy alone.\nTools and methods: Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.\nView project on GitHub"
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Extra Projects",
+    "section": "",
+    "text": "Loan Default Prediction and Lending Decision Analysis\nA credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.\nThe analysis compares logistic regression, tree-based models, ensemble methods, and XGBoost, then evaluates not only classification performance but also the expected financial loss from false approvals and false rejections. The project highlights why lending models should be assessed using decision-relevant costs rather than accuracy alone.\nTools and methods: Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.\nView project on GitHub"
   },
   {
     "objectID": "about.html",
