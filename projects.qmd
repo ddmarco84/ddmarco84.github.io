@@ -29,4 +29,15 @@ Users can experiment by choosing the number of agents, the desired percentage of
 
 Key outputs include the percentage of happy agents, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.
 
-[Run the NetLogo model](netlogo/model_final.html)
+<br>
+
+<iframe 
+  src="netlogo/model_final.html"
+  width="100%"
+  height="850"
+  style="border: 1px solid #ddd; border-radius: 8px;">
+</iframe>
+
+<br>
+
+[Open the model in a separate page](netlogo/model_final.html)
