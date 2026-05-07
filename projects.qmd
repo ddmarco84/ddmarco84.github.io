@@ -20,4 +20,4 @@ The analysis compares logistic regression, tree-based models, ensemble methods, 
 
 An interactive NetLogo model showing how individual preferences and network connections can produce aggregate patterns of segregation and clustering. The model allows users to vary tolerance, population size, and network structure, then observe how these parameters affect happiness, clustering, and welfare.
 
-[Run the NetLogo model](netlogo/model_var2_online.html)
+[Run the NetLogo model](netlogo/model_var2.html)
