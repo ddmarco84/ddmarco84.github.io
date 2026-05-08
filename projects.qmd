@@ -26,7 +26,11 @@ Agents also face a cost of maintaining links. Their utility therefore balances t
 
 The model illustrates how decentralised individual choices can produce unintended aggregate outcomes. Even when agents require only a moderate share of similar neighbours, local link adjustments may gradually remove cross-group connections and generate segregated clusters. This highlights a network externality: agents change the opportunities and welfare of others when they alter links, but these effects are not fully internalised.
 
-Users can experiment by choosing the number of agents, the desired percentage of similar neighbours, the penalty for falling below the threshold, and the cost of maintaining links. After pressing **Setup**, the model creates an initial random network. Pressing **Go** lets unhappy agents update their links until the network reaches a stable outcome.
+Users can run the model by choosing the number of agents with the **buttons** slider and setting the desired similarity threshold with **%-similar-wanted**. This threshold indicates the minimum share of same-type neighbours an agent wants in order to be satisfied. Lower values mean agents tolerate more mixed neighbourhoods; higher values represent stronger preferences for same-colour neighbours. A key point of the model is that segregation can still emerge even when this threshold is not especially high.
+
+Users can also adjust the **link-cost**, which makes maintaining connections more or less costly, the **threshold-penalty**, which determines how strongly agents are penalised for falling below their desired similarity threshold, and **isolated-utility**, which sets the payoff from having no links.
+
+Press **Setup** to create the initial random network, then press **Go** to let unhappy agents update their links. At each step, one unhappy agent may cut, form, or rewire links. The model stops automatically when all agents are happy.
 
 Key outputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.
 
