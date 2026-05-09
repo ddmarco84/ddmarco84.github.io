@@ -224,14 +224,15 @@ function draw() {
 
 
 <section id="loan-default-prediction-and-lending-decision-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="loan-default-prediction-and-lending-decision-analysis">Loan Default Prediction and Lending Decision Analysis</h3>
+<h3 class="anchored" data-anchor-id="loan-default-prediction-and-lending-decision-analysis"><strong>Loan Default Prediction and Lending Decision Analysis</strong></h3>
 <p>A credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.</p>
 <p>The analysis compares logistic regression, tree-based models, ensemble methods, and XGBoost, then evaluates not only classification performance but also the expected financial loss from false approvals and false rejections. The project highlights why lending models should be assessed using decision-relevant costs rather than accuracy alone.</p>
 <p><strong>Tools and methods:</strong> Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.</p>
 <p><a href="https://github.com/ddmarco84/project">View project on GitHub</a></p>
+<p><br></p>
 </section>
 <section id="network-segregation-model" class="level3">
-<h3 class="anchored" data-anchor-id="network-segregation-model">Network Segregation Model</h3>
+<h3 class="anchored" data-anchor-id="network-segregation-model"><strong>Network Segregation Model</strong></h3>
 <p>This NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.</p>
 <p>The version implemented here uses a <strong>threshold-flat utility function</strong>. Each agent belongs to one of two groups and evaluates its local network neighbourhood according to the share of same-type neighbours. An agent is satisfied only if this share is at least as high as a chosen threshold, such as 40%, 50%, or 60%. Once the threshold is reached, however, the agent receives no additional composition benefit from having an even higher share of same-type neighbours. In this sense, agents do not directly prefer full segregation; they only require “enough” similarity in their immediate network.</p>
 <p>Agents also face a cost of maintaining links. Their utility therefore balances two forces: the benefit of satisfying the similarity threshold and the cost of holding connections. If agents are unhappy, they may cut, create, or rewire links when doing so improves their own utility.</p>
