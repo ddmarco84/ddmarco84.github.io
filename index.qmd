@@ -24,7 +24,7 @@ I am an economist and Assistant Professor at Edinburgh Business School, Heriot-W
 
 My research focuses on how strategic interactions and interdependencies across agents shape economic outcomes, with applications to **market design**, **policy analysis**, and **risk** in interconnected systems.
 
-I have over ten years' experience in higher education, teaching courses in **microeconomics**, **game theory**, and **economic policy**. I have also completed the MIT Applied Data Science Program, where I developed applied skills in **machine learning**, **statistical modelling**, and AI for data-driven decision-making.
+I have over ten years' experience in higher education, teaching courses in microeconomics, game theory, and economic policy. I have also completed the MIT Applied Data Science Program, where I developed applied skills in machine learning, statistical modelling, and AI for data-driven decision-making.
 
 [Download CV](https://www.dropbox.com/scl/fi/n0wkjcrwjxm8phx2dq726/CV_MP.pdf?rlkey=cx2f5yeqqj0vmzupmdwbetg2v&e=1&st=jq6t2pyb&dl=0){.btn .btn-outline-primary target="_blank"}
 
