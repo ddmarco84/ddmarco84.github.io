@@ -5,7 +5,7 @@ page-layout: full
 
 
 
-### Loan Default Prediction and Lending Decision Analysis
+### **Loan Default Prediction and Lending Decision Analysis**
 
 A credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.
 
@@ -15,8 +15,9 @@ The analysis compares logistic regression, tree-based models, ensemble methods, 
 
 [View project on GitHub](https://github.com/ddmarco84/project)
 
+<br>
 
-### Network Segregation Model
+### **Network Segregation Model**
 
 This NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.
 
