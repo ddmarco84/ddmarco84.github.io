@@ -4,6 +4,7 @@ page-layout: full
 ---
 
 
+## Machine Learning and Decision Analysis
 
 ### **Loan Default Prediction and Lending Decision Analysis**
 
@@ -17,21 +18,21 @@ The analysis compares logistic regression, tree-based models, ensemble methods, 
 
 <br>
 
+## Agent-Based Simulation and Network Economics
+
 ### **Network Segregation Model**
 
 This NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.
 
-The version implemented here uses a **threshold-flat utility function**. Each agent belongs to one of two groups and evaluates its local network neighbourhood according to the share of same-type neighbours. An agent is satisfied only if this share is at least as high as a chosen threshold, such as 40%, 50%, or 60%. Once the threshold is reached, however, the agent receives no additional composition benefit from having an even higher share of same-type neighbours. In this sense, agents do not directly prefer full segregation; they only require “enough” similarity in their immediate network.
+Agents belong to one of two groups and evaluate their immediate network neighbourhood according to the share of same-type neighbours. The version implemented here uses a **threshold-flat utility function**: agents want at least a chosen share of similar neighbours, but once this threshold is reached they receive no additional benefit from further homogeneity. In other words, agents do not directly seek full segregation; they only require “enough” similarity.
 
-Agents also face a cost of maintaining links. Their utility therefore balances two forces: the benefit of satisfying the similarity threshold and the cost of holding connections. If agents are unhappy, they may cut, create, or rewire links when doing so improves their own utility.
+Links are also costly to maintain. Agents therefore balance the benefit of satisfying their similarity threshold against the cost of holding connections. When agents are unhappy, they may cut, create, or rewire links if doing so improves their own utility.
 
-The model illustrates how decentralised individual choices can produce unintended aggregate outcomes. Even when agents require only a moderate share of similar neighbours, local link adjustments may gradually remove cross-group connections and generate segregated clusters. This highlights a network externality: agents change the opportunities and welfare of others when they alter links, but these effects are not fully internalised.
+The model shows how decentralised individual decisions can generate unintended aggregate segregation. Even moderate similarity thresholds can gradually reduce cross-group links and produce clustered networks, because agents do not fully internalise how their link choices affect others.
 
-Users can run the model by choosing the number of agents with the **buttons** slider and setting the desired similarity threshold with **%-similar-wanted**. This threshold indicates the minimum share of same-type neighbours an agent wants in order to be satisfied. Lower values mean agents tolerate more mixed neighbourhoods; higher values represent stronger preferences for same-colour neighbours. A key point of the model is that segregation can still emerge even when this threshold is not especially high.
 
-Users can also adjust the **link-cost**, which makes maintaining connections more or less costly, the **threshold-penalty**, which determines how strongly agents are penalised for falling below their desired similarity threshold, and **isolated-utility**, which sets the payoff from having no links.
 
-Press **Setup** to create the initial random network, then press **Go** to let unhappy agents update their links. At each step, one unhappy agent may cut, form, or rewire links. The model stops automatically when all agents are happy.
+**How to use the model:** choose the number of agents with the **buttons** slider, set the desired similarity threshold with **%-similar-wanted**, and adjust the link cost and payoff parameters. Press **Setup** to create the initial random network, then press **Go** to let unhappy agents update their links until the network reaches a stable outcome.
 
 Key outputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.
 
