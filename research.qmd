@@ -19,6 +19,11 @@ page-layout: full
 
 ## Published Papers
 
+**Too Much Finance: Mechanisms That Harm Growth and Policy Implications** (with A. Daripa and S. Kapur), *The Manchester School*, 2026, 1–20.
+<br>[[DOI]](https://doi.org/10.1111/manc.70060)
+
+---
+
 **Decentralized Defence of a (Directed) Network Structure**, *Defence and Peace Economics*, 2020.
 <br> I analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.
 
