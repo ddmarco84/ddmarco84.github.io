@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://marcopelliccia.com/teaching.html</loc>
-    <lastmod>2026-10-24T12:04:56.515Z</lastmod>
-  </url>
-  <url>
-    <loc>https://marcopelliccia.com/projects.html</loc>
-    <lastmod>2026-10-24T12:04:56.514Z</lastmod>
+    <loc>https://marcopelliccia.com/research.html</loc>
+    <lastmod>2026-10-24T12:10:48.487Z</lastmod>
   </url>
   <url>
     <loc>https://marcopelliccia.com/index.html</loc>
-    <lastmod>2026-10-24T12:04:56.433Z</lastmod>
+    <lastmod>2026-10-24T12:10:48.393Z</lastmod>
   </url>
   <url>
-    <loc>https://marcopelliccia.com/research.html</loc>
-    <lastmod>2026-10-24T12:04:56.514Z</lastmod>
+    <loc>https://marcopelliccia.com/projects.html</loc>
+    <lastmod>2026-10-24T12:10:48.487Z</lastmod>
   </url>
 </urlset>

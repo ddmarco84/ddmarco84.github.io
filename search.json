@@ -1,38 +1,24 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Alongside my role at SQW, I continue to work part time at Heriot-Watt University to complete my teaching commitments through December 2026."
+    "text": "My research examines how incentives and connections between people, firms and countries shape economic outcomes."
   },
   {
-    "objectID": "teaching.html#selected-courses",
-    "href": "teaching.html#selected-courses",
-    "title": "Teaching",
-    "section": "Selected courses",
-    "text": "Selected courses\nIntroduction to Public Choice and Welfare Economics\nThe economic foundations of public policy: welfare, market failures and social dilemmas, and the role of policy interventions. The course considers strategic behaviour, institutional constraints and ethical questions in policymaking.\n\nIntermediate Economics I\nAn intermediate foundation in microeconomics, covering consumer choice, firm behaviour, market structures and game theory, with applications to economic problems and policy analysis.\n\nGames and Behaviour\nDecision-making under risk and uncertainty, including departures from expected utility theory. Game theory provides the tools to study strategic interaction, with applications to competition and coordination in oligopoly markets.\n\nIntroduction to Economic and Financial Analysis\nMathematical tools for economics and finance, including algebra, functions, calculus and optimisation. Students apply these methods to economic models and develop basic Python skills for computational problem-solving."
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\nIncentive Design on Networks (with A. Daripa and S. Kapur)\nHow can incentives encourage people to form a network that benefits society when their productivity is private information?\nWe design a mechanism for network formation with privately known productivities that implements the socially optimal network through transfers based on opportunity costs, ensuring ex post incentive compatibility, pairwise stability, and budget balance.\nRead working paper on SSRN\n\nNetwork Structures and Credit Rating (with A. Daripa and S. Kapur)\nCan the connections agents choose reveal information useful for credit ratings?\nWe study whether productivity-consistent credit ratings can be inferred from endogenous network structure, showing that under suitable link costs equilibrium networks separate types and sustain ratings aligned with productivity.\nRead working paper on SSRN"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "These independent projects apply economic reasoning, data analysis and simulation to decision problems. They illustrate my methods and interests alongside my academic research."
-  },
-  {
-    "objectID": "projects.html#loan-default-prediction-and-lending-decision-analysis",
-    "href": "projects.html#loan-default-prediction-and-lending-decision-analysis",
-    "title": "Projects",
-    "section": "Loan Default Prediction and Lending Decision Analysis",
-    "text": "Loan Default Prediction and Lending Decision Analysis\nQuestion. How should a lender assess default predictions when false approvals and false rejections have different costs?\nApproach. Using the HMEQ home-equity loan dataset, I compare logistic regression, tree-based models, ensemble methods and XGBoost. The analysis considers classification performance, decision thresholds and the expected loss from lending errors.\nInsight and relevance. Model assessment needs to reflect the costs of the decisions it informs. The project connects predictive modelling with lending decisions through expected-loss analysis.\nLimitations. Conclusions depend on this dataset and the assumed costs of lending errors. Performance in a live lending setting would require separate validation.\nTools and methods: Python, scikit-learn, XGBoost, threshold optimisation, expected-loss analysis and SHAP.\nView project on GitHub"
-  },
-  {
-    "objectID": "projects.html#network-segregation-model",
-    "href": "projects.html#network-segregation-model",
-    "title": "Projects",
-    "section": "Network Segregation Model",
-    "text": "Network Segregation Model\nQuestion. How can individual choices about whom to connect to produce segregation across a network?\nApproach. This NetLogo simulation adapts Schelling’s segregation model to network formation. Agents weigh the cost of links against a preference for having at least a chosen share of neighbours from their own group.\nInsight and relevance. Individual link choices can produce segregated networks even when agents gain no additional benefit from similarity beyond their chosen threshold. The model provides a way to explore how individual incentives and network effects interact.\nLimitations. This is an illustrative model. Outcomes depend on the behavioural rules, initial network and parameter choices.\nTools and methods: NetLogo, agent-based simulation and network analysis.\n\n\nModel details and instructions\n\nAgents belong to one of two groups and evaluate the share of same-type neighbours in their immediate network. The model uses a threshold-flat utility function: agents want at least a chosen share of similar neighbours, but receive no further benefit from homogeneity once that threshold is reached.\nLinks are costly to maintain. Unhappy agents may cut, create or rewire links when doing so improves their utility.\nTo run the model, choose the number of agents with the buttons slider, set %-similar-wanted, and adjust the link cost and payoff parameters. Press Setup to create an initial random network, then Go to let agents update their links.\nOutputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient and average welfare.\n\n\nExplore the model\n\n\nOpen the model in a separate page"
+    "objectID": "research.html#published-papers",
+    "href": "research.html#published-papers",
+    "title": "Research",
+    "section": "Published Papers",
+    "text": "Published Papers\nToo Much Finance: Mechanisms That Harm Growth and Policy Implications (with A. Daripa and S. Kapur), The Manchester School, 2026, 1–20.\nWhen can the expansion of finance harm economic growth, and what does this imply for policy?\nJournal article\n\nDecentralized Defence of a (Directed) Network Structure, Defence and Peace Economics, 2020.\nWhen do individual decisions about security protect a network as well as coordinated decisions?\nI analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.\nJournal article\n\nCentrality in Trade Networks and Investment in Security (with V. Bove and L. Elia), Peace Economics, Peace Science and Public Policy, 2016.\nHow does a country’s position in global trade networks relate to its military spending?\nWe show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions.\nJournal article"
   },
   {
     "objectID": "index.html#about",
@@ -63,24 +49,24 @@
     "text": "Recent updates\n\n\nOctober 2026Joined SQW as Managing Consultant.\n\n\nJanuary 2026Presented at TMF in London.\n\n\n\n\nEarlier talks and conferences\n\n\nJune 2024: Presented at CMID24 in Budapest.\nJune 2023: Presented at CoED23 in Girona.\nMarch 2023: Presented Networks and Economic Policy at the Scottish Government Assistant Economists meeting.\nJanuary 2023: Attended the SGPE Conference in Crieff.\nAugust 2022: Presented at the European ESA conference.\nJuly 2022: Presented at SUNBELT.\nMay 2022: Presented at the CNEE workshop, Economics of Networks."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "My research examines how incentives and connections between people, firms and countries shape economic outcomes."
+    "text": "These independent projects apply economic reasoning, data analysis and simulation to decision problems. They illustrate my methods and interests alongside my academic research."
   },
   {
-    "objectID": "research.html#working-papers",
-    "href": "research.html#working-papers",
-    "title": "Research",
-    "section": "Working Papers",
-    "text": "Working Papers\nIncentive Design on Networks (with A. Daripa and S. Kapur)\nHow can incentives encourage people to form a network that benefits society when their productivity is private information?\nWe design a mechanism for network formation with privately known productivities that implements the socially optimal network through transfers based on opportunity costs, ensuring ex post incentive compatibility, pairwise stability, and budget balance.\nRead working paper on SSRN\n\nNetwork Structures and Credit Rating (with A. Daripa and S. Kapur)\nCan the connections agents choose reveal information useful for credit ratings?\nWe study whether productivity-consistent credit ratings can be inferred from endogenous network structure, showing that under suitable link costs equilibrium networks separate types and sustain ratings aligned with productivity.\nRead working paper on SSRN"
+    "objectID": "projects.html#loan-default-prediction-and-lending-decision-analysis",
+    "href": "projects.html#loan-default-prediction-and-lending-decision-analysis",
+    "title": "Projects",
+    "section": "Loan Default Prediction and Lending Decision Analysis",
+    "text": "Loan Default Prediction and Lending Decision Analysis\nQuestion. How should a lender assess default predictions when false approvals and false rejections have different costs?\nApproach. Using the HMEQ home-equity loan dataset, I compare logistic regression, tree-based models, ensemble methods and XGBoost. The analysis considers classification performance, decision thresholds and the expected loss from lending errors.\nInsight and relevance. Model assessment needs to reflect the costs of the decisions it informs. The project connects predictive modelling with lending decisions through expected-loss analysis.\nLimitations. Conclusions depend on this dataset and the assumed costs of lending errors. Performance in a live lending setting would require separate validation.\nTools and methods: Python, scikit-learn, XGBoost, threshold optimisation, expected-loss analysis and SHAP.\nView project on GitHub"
   },
   {
-    "objectID": "research.html#published-papers",
-    "href": "research.html#published-papers",
-    "title": "Research",
-    "section": "Published Papers",
-    "text": "Published Papers\nToo Much Finance: Mechanisms That Harm Growth and Policy Implications (with A. Daripa and S. Kapur), The Manchester School, 2026, 1–20.\nWhen can the expansion of finance harm economic growth, and what does this imply for policy?\nJournal article\n\nDecentralized Defence of a (Directed) Network Structure, Defence and Peace Economics, 2020.\nWhen do individual decisions about security protect a network as well as coordinated decisions?\nI analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.\nJournal article\n\nCentrality in Trade Networks and Investment in Security (with V. Bove and L. Elia), Peace Economics, Peace Science and Public Policy, 2016.\nHow does a country’s position in global trade networks relate to its military spending?\nWe show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions.\nJournal article"
+    "objectID": "projects.html#network-segregation-model",
+    "href": "projects.html#network-segregation-model",
+    "title": "Projects",
+    "section": "Network Segregation Model",
+    "text": "Network Segregation Model\nQuestion. How can individual choices about whom to connect to produce segregation across a network?\nApproach. This NetLogo simulation adapts Schelling’s segregation model to network formation. Agents weigh the cost of links against a preference for having at least a chosen share of neighbours from their own group.\nInsight and relevance. Individual link choices can produce segregated networks even when agents gain no additional benefit from similarity beyond their chosen threshold. The model provides a way to explore how individual incentives and network effects interact.\nLimitations. This is an illustrative model. Outcomes depend on the behavioural rules, initial network and parameter choices.\nTools and methods: NetLogo, agent-based simulation and network analysis.\n\n\nModel details and instructions\n\nAgents belong to one of two groups and evaluate the share of same-type neighbours in their immediate network. The model uses a threshold-flat utility function: agents want at least a chosen share of similar neighbours, but receive no further benefit from homogeneity once that threshold is reached.\nLinks are costly to maintain. Unhappy agents may cut, create or rewire links when doing so improves their utility.\nTo run the model, choose the number of agents with the buttons slider, set %-similar-wanted, and adjust the link cost and payoff parameters. Press Setup to create an initial random network, then Go to let agents update their links.\nOutputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient and average welfare.\n\n\nExplore the model\n\n\nOpen the model in a separate page"
   }
 ]
