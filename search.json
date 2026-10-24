@@ -1,65 +1,86 @@
 [
   {
-    "objectID": "projects.html#machine-learning-and-decision-analysis",
-    "href": "projects.html#machine-learning-and-decision-analysis",
-    "title": "Extra Projects",
-    "section": "Machine Learning and Decision Analysis",
-    "text": "Machine Learning and Decision Analysis\n\nLoan Default Prediction and Lending Decision Analysis\nA credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.\nThe analysis compares logistic regression, tree-based models, ensemble methods, and XGBoost, then evaluates not only classification performance but also the expected financial loss from false approvals and false rejections. The project highlights why lending models should be assessed using decision-relevant costs rather than accuracy alone.\nTools and methods: Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.\nView project on GitHub"
-  },
-  {
-    "objectID": "projects.html#agent-based-simulation-and-network-economics",
-    "href": "projects.html#agent-based-simulation-and-network-economics",
-    "title": "Extra Projects",
-    "section": "Agent-Based Simulation and Network Economics",
-    "text": "Agent-Based Simulation and Network Economics\n\nNetwork Segregation Model\nThis NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.\nAgents belong to one of two groups and evaluate their immediate network neighbourhood according to the share of same-type neighbours. The version implemented here uses a threshold-flat utility function: agents want at least a chosen share of similar neighbours, but once this threshold is reached they receive no additional benefit from further homogeneity. In other words, agents do not directly seek full segregation; they only require “enough” similarity.\nLinks are also costly to maintain. Agents therefore balance the benefit of satisfying their similarity threshold against the cost of holding connections. When agents are unhappy, they may cut, create, or rewire links if doing so improves their own utility.\nThe model shows how decentralised individual decisions can generate unintended aggregate segregation. Even moderate similarity thresholds can gradually reduce cross-group links and produce clustered networks, because agents do not fully internalise how their link choices affect others.\nHow to use the model: choose the number of agents with the buttons slider, set the desired similarity threshold with %-similar-wanted, and adjust the link cost and payoff parameters. Press Setup to create the initial random network, then press Go to let unhappy agents update their links until the network reaches a stable outcome.\nKey outputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.\n\n\n\n\nOpen the model in a separate page"
-  },
-  {
-    "objectID": "teaching.html#current-courses",
-    "href": "teaching.html#current-courses",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
     "title": "Teaching",
-    "section": "Current courses",
-    "text": "Current courses\nIntroduction to Public Choice and Welfare Economics  This course examines the economic foundations of public policy, focusing on how different normative frameworks define welfare, why market failures and social dilemmas arise, and how policy interventions can address them, while accounting for strategic behaviour, institutional constraints, and ethical considerations in real-world policymaking.\n\nIntermediate Economics I  This course provides an intermediate-level foundation in microeconomics, focusing on how consumers, firms, and markets make decisions, and developing the analytical tools needed to study consumer choice, firm behaviour, market structures, and strategic interaction through game theory, with an emphasis on applying theory to real-world economic problems and policy analysis.\n\nGames and Behaviour  This course examines decision-making under risk and uncertainty, including deviations from standard expected utility theory, and studies how such behaviour shapes strategic interaction using the tools of game theory, with applications to oligopoly markets where firms compete and coordinate under interdependence and incentives.\n\nIntroduction to Economic and Financial Analysis  This course provides a foundation in the mathematical tools used in economics and finance, covering algebra, functions, calculus, and optimisation, with an emphasis on applying these methods to economic models and problems, and complementing analytical skills with basic Python programming for computational problem-solving."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Alongside my role at SQW, I continue to work part time at Heriot-Watt University to complete my teaching commitments through December 2026."
   },
   {
-    "objectID": "research.html#working-papers",
-    "href": "research.html#working-papers",
-    "title": "Research",
-    "section": "Working Papers",
-    "text": "Working Papers\nIncentive Design on Networks (with A. Daripa and S. Kapur)  We design a mechanism for network formation with privately known productivities that implements the socially optimal network through transfers based on opportunity costs, ensuring ex post incentive compatibility, pairwise stability, and budget balance. [SSRN]\n\nNetwork Structures and Credit Rating (with A. Daripa and S. Kapur)  We study whether productivity-consistent credit ratings can be inferred from endogenous network structure, showing that under suitable link costs equilibrium networks separate types and sustain ratings aligned with productivity. [SSRN]"
+    "objectID": "teaching.html#selected-courses",
+    "href": "teaching.html#selected-courses",
+    "title": "Teaching",
+    "section": "Selected courses",
+    "text": "Selected courses\nIntroduction to Public Choice and Welfare Economics\nThe economic foundations of public policy: welfare, market failures and social dilemmas, and the role of policy interventions. The course considers strategic behaviour, institutional constraints and ethical questions in policymaking.\n\nIntermediate Economics I\nAn intermediate foundation in microeconomics, covering consumer choice, firm behaviour, market structures and game theory, with applications to economic problems and policy analysis.\n\nGames and Behaviour\nDecision-making under risk and uncertainty, including departures from expected utility theory. Game theory provides the tools to study strategic interaction, with applications to competition and coordination in oligopoly markets.\n\nIntroduction to Economic and Financial Analysis\nMathematical tools for economics and finance, including algebra, functions, calculus and optimisation. Students apply these methods to economic models and develop basic Python skills for computational problem-solving."
   },
   {
-    "objectID": "research.html#published-papers",
-    "href": "research.html#published-papers",
-    "title": "Research",
-    "section": "Published Papers",
-    "text": "Published Papers\nToo Much Finance: Mechanisms That Harm Growth and Policy Implications (with A. Daripa and S. Kapur), The Manchester School, 2026, 1–20. [DOI]\n\nDecentralized Defence of a (Directed) Network Structure, Defence and Peace Economics, 2020.  I analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.\n\nCentrality in Trade Networks and Investment in Security (with V. Bove and L. Elia), Peace Economics, Peace Science and Public Policy, 2016.  We show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions."
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Applied Work",
+    "section": "",
+    "text": "These independent projects apply economic reasoning, data analysis and simulation to decision problems. They illustrate my methods and interests alongside my academic research."
+  },
+  {
+    "objectID": "projects.html#loan-default-prediction-and-lending-decision-analysis",
+    "href": "projects.html#loan-default-prediction-and-lending-decision-analysis",
+    "title": "Applied Work",
+    "section": "Loan Default Prediction and Lending Decision Analysis",
+    "text": "Loan Default Prediction and Lending Decision Analysis\nQuestion. How should a lender assess default predictions when false approvals and false rejections have different costs?\nApproach. Using the HMEQ home-equity loan dataset, I compare logistic regression, tree-based models, ensemble methods and XGBoost. The analysis considers classification performance, decision thresholds and the expected loss from lending errors.\nInsight and relevance. Model assessment needs to reflect the costs of the decisions it informs. The project connects predictive modelling with lending decisions through expected-loss analysis.\nLimitations. Conclusions depend on this dataset and the assumed costs of lending errors. Performance in a live lending setting would require separate validation.\nTools and methods: Python, scikit-learn, XGBoost, threshold optimisation, expected-loss analysis and SHAP.\nView project on GitHub"
+  },
+  {
+    "objectID": "projects.html#network-segregation-model",
+    "href": "projects.html#network-segregation-model",
+    "title": "Applied Work",
+    "section": "Network Segregation Model",
+    "text": "Network Segregation Model\nQuestion. How can individual choices about whom to connect to produce segregation across a network?\nApproach. This NetLogo simulation adapts Schelling’s segregation model to network formation. Agents weigh the cost of links against a preference for having at least a chosen share of neighbours from their own group.\nInsight and relevance. Individual link choices can produce segregated networks even when agents gain no additional benefit from similarity beyond their chosen threshold. The model provides a way to explore how individual incentives and network effects interact.\nLimitations. This is an illustrative model. Outcomes depend on the behavioural rules, initial network and parameter choices.\nTools and methods: NetLogo, agent-based simulation and network analysis.\n\n\nModel details and instructions\n\nAgents belong to one of two groups and evaluate the share of same-type neighbours in their immediate network. The model uses a threshold-flat utility function: agents want at least a chosen share of similar neighbours, but receive no further benefit from homogeneity once that threshold is reached.\nLinks are costly to maintain. Unhappy agents may cut, create or rewire links when doing so improves their utility.\nTo run the model, choose the number of agents with the buttons slider, set %-similar-wanted, and adjust the link cost and payoff parameters. Press Setup to create an initial random network, then Go to let agents update their links.\nOutputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient and average welfare.\n\n\nExplore the model\n\n\nOpen the model in a separate page"
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Marco Pelliccia",
     "section": "About",
-    "text": "About\nI am an economist and Assistant Professor at Edinburgh Business School, Heriot-Watt University. I hold a PhD in Economics from Birkbeck, University of London, where I specialised in the economics of networks and game theory.\nMy research focuses on how strategic interactions and interdependencies across agents shape economic outcomes, with applications to market design, policy analysis, and risk in interconnected systems.\nI have over ten years’ experience in higher education, teaching courses in microeconomics, game theory, and economic policy. I have also completed the MIT Applied Data Science Program, where I developed applied skills in machine learning, statistical modelling, and AI for data-driven decision-making.\nDownload CV"
+    "text": "About\nI am an economist and Managing Consultant at SQW. My background combines research in network economics and game theory with quantitative modelling and applied data analysis. I am interested in how incentives and connections between people, organisations, and markets shape economic outcomes.\nAlongside my role at SQW, I continue to teach part time at Heriot-Watt University until December 2026.\n\nExplore applied work View CV (PDF)"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
+    "objectID": "index.html#areas-of-expertise",
+    "href": "index.html#areas-of-expertise",
     "title": "Marco Pelliccia",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nMicroeconomic Theory\nNetwork Economics & Game Theory\nMarket Design & Policy Analysis\nMachine Learning & Data-Driven Analysis"
+    "section": "Areas of expertise",
+    "text": "Areas of expertise\n\n\nEconomic analysis and incentives\nUnderstanding behaviour, strategic interactions, and policy choices through microeconomics and game theory.\n\n\nNetworks and interdependencies\nExamining how connections between people, organisations, and markets shape outcomes and transmit risks.\n\n\nData analysis and modelling\nUsing statistical methods, machine learning, and simulation to investigate decisions and their consequences."
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
+    "objectID": "index.html#background",
+    "href": "index.html#background",
     "title": "Marco Pelliccia",
-    "section": "News",
-    "text": "News\n\n\nPresented at TMF in London, January 2026, UK\n\n\nPresented at CMID24 in Budapest, June 2024, HU\n\n\nPresented at CoED23 in Girona, June 2023, ES\n\n\nPresented Networks and Econ Policy to Scottish Government Assistant Economists meeting, March 2023, UK\n\n\nAttended SGPE Conference in Crieff, January 2023, UK\n\n\nPresented at 2022 European ESA, August 2022, IT\n\n\nPresented at SUNBELT 2022, July 2022, AU\n\n\nPresented the CNEE Workshop “Economics of Networks”, May 2022"
+    "section": "Background",
+    "text": "Background\nI hold a PhD in Economics from Birkbeck, University of London, where I specialised in network economics and game theory. I have over ten years’ experience in higher education, including research and teaching in microeconomics, game theory, and economic policy.\nI have also completed the MIT Applied Data Science Program, developing applied skills in machine learning and statistical modelling. My research and independent projects bring these interests together."
+  },
+  {
+    "objectID": "index.html#recent-updates",
+    "href": "index.html#recent-updates",
+    "title": "Marco Pelliccia",
+    "section": "Recent updates",
+    "text": "Recent updates\n\n\nOctober 2026Joined SQW as Managing Consultant.\n\n\nJanuary 2026Presented at TMF in London.\n\n\n\n\nEarlier talks and conferences\n\n\nJune 2024: Presented at CMID24 in Budapest.\nJune 2023: Presented at CoED23 in Girona.\nMarch 2023: Presented Networks and Economic Policy at the Scottish Government Assistant Economists meeting.\nJanuary 2023: Attended the SGPE Conference in Crieff.\nAugust 2022: Presented at the European ESA conference.\nJuly 2022: Presented at SUNBELT.\nMay 2022: Presented at the CNEE workshop, Economics of Networks."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research examines how incentives and connections between people, firms and countries shape economic outcomes."
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\nIncentive Design on Networks (with A. Daripa and S. Kapur)\nHow can incentives encourage people to form a network that benefits society when their productivity is private information?\nWe design a mechanism for network formation with privately known productivities that implements the socially optimal network through transfers based on opportunity costs, ensuring ex post incentive compatibility, pairwise stability, and budget balance.\nRead working paper on SSRN\n\nNetwork Structures and Credit Rating (with A. Daripa and S. Kapur)\nCan the connections agents choose reveal information useful for credit ratings?\nWe study whether productivity-consistent credit ratings can be inferred from endogenous network structure, showing that under suitable link costs equilibrium networks separate types and sustain ratings aligned with productivity.\nRead working paper on SSRN"
+  },
+  {
+    "objectID": "research.html#published-papers",
+    "href": "research.html#published-papers",
+    "title": "Research",
+    "section": "Published Papers",
+    "text": "Published Papers\nToo Much Finance: Mechanisms That Harm Growth and Policy Implications (with A. Daripa and S. Kapur), The Manchester School, 2026, 1–20.\nWhen can the expansion of finance harm economic growth, and what does this imply for policy?\nJournal article\n\nDecentralized Defence of a (Directed) Network Structure, Defence and Peace Economics, 2020.\nWhen do individual decisions about security protect a network as well as coordinated decisions?\nI analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.\nJournal article\n\nCentrality in Trade Networks and Investment in Security (with V. Bove and L. Elia), Peace Economics, Peace Science and Public Policy, 2016.\nHow does a country’s position in global trade networks relate to its military spending?\nWe show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions.\nJournal article"
   }
 ]

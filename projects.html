@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Independent projects in credit-risk modelling, decision analysis and network simulation by Marco Pelliccia.">
 
-<title>Extra Projects – Marco Pelliccia</title>
+<title>Applied Work – Marco Pelliccia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -42,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9c0859bcc9b8a1b9af14519a9fc68dfa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-37760b2b8fe23d2514863e33923e39df.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,6 +77,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Applied Work – Marco Pelliccia">
+<meta property="og:description" content="Independent projects in credit-risk modelling, decision analysis and network simulation by Marco Pelliccia.">
+<meta property="og:image" content="https://marcopelliccia.com/images/profile.jpg">
+<meta property="og:site_name" content="Marco Pelliccia">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image:alt" content="Portrait of Marco Pelliccia">
+<meta name="twitter:title" content="Applied Work – Marco Pelliccia">
+<meta name="twitter:description" content="Independent projects in credit-risk modelling, decision analysis and network simulation by Marco Pelliccia.">
+<meta name="twitter:image" content="https://marcopelliccia.com/images/profile.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:alt" content="Portrait of Marco Pelliccia">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -100,16 +112,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Applied Work</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -125,91 +137,38 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
-<style>
-#nav-network {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  z-index: 1;
-  overflow: hidden;
-}
-</style>
-<div id="nav-network"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+<!-- A static, decorative network: no external library or continuous motion. -->
+<svg id="nav-network" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 96" preserveaspectratio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <g fill="none" stroke="#9cddb3" stroke-width="0.75">
+    <path d="M-20 78 70 22 146 64 225 13 306 60 390 27 470 79 548 33 634 68 710 15 795 58 878 21 958 72 1040 29 1120 66 1205 15 1288 57 1370 24 1460 75"></path>
+    <path d="M-20 78 146 64 306 60 470 79 634 68 795 58 958 72 1120 66 1288 57 1460 75M70 22 225 13 390 27 548 33 710 15 878 21 1040 29 1205 15 1370 24"></path>
+    <path d="M70 22 106 94 225 13M390 27 425 103 548 33M710 15 752 96 878 21M1040 29 1080 103 1205 15M1370 24 1406 96"></path>
+  </g>
+  <g fill="#c6f1d5">
+    <circle cx="70" cy="22" r="2"></circle><circle cx="146" cy="64" r="2"></circle>
+    <circle cx="225" cy="13" r="2"></circle><circle cx="306" cy="60" r="2"></circle>
+    <circle cx="390" cy="27" r="2"></circle><circle cx="470" cy="79" r="2"></circle>
+    <circle cx="548" cy="33" r="2"></circle><circle cx="634" cy="68" r="2"></circle>
+    <circle cx="710" cy="15" r="2"></circle><circle cx="795" cy="58" r="2"></circle>
+    <circle cx="878" cy="21" r="2"></circle><circle cx="958" cy="72" r="2"></circle>
+    <circle cx="1040" cy="29" r="2"></circle><circle cx="1120" cy="66" r="2"></circle>
+    <circle cx="1205" cy="15" r="2"></circle><circle cx="1288" cy="57" r="2"></circle>
+    <circle cx="1370" cy="24" r="2"></circle>
+  </g>
+</svg>
 <script>
-const NODES = 40;
-const LINK_DISTANCE = 110;
-const SPEED = 0.35;
-const NODE_SIZE = 2;
-const LINE_BASE_ALPHA = 120;
-const LINE_MAX_THICK = 1.6;
-const LINE_MIN_THICK = 0.3;
-const FG_COLOR = [255, 255, 255];
-const BG_COLOR = [30, 30, 30];
-const HEIGHT = 60;
-let nodes = [];
-let holder;
-let c;
-function setup() {
-  holder = document.getElementById('nav-network');
-  c = createCanvas(windowWidth, HEIGHT);
-  c.parent(holder);
-  pixelDensity(1);
-  initNodes();
-}
-function windowResized() {
-  resizeCanvas(windowWidth, HEIGHT);
-}
-function initNodes() {
-  nodes = [];
-  for (let i = 0; i < NODES; i++) {
-    nodes.push({
-      x: random(width),
-      y: random(HEIGHT),
-      vx: random(-SPEED, SPEED),
-      vy: random(-SPEED, SPEED)
-    });
-  }
-}
-function draw() {
-  background(BG_COLOR[0], BG_COLOR[1], BG_COLOR[2]);
-  for (let n of nodes) {
-    n.x += n.vx;
-    n.y += n.vy;
-    n.vx += random(-0.02, 0.02);
-    n.vy += random(-0.02, 0.02);
-    n.vx = constrain(n.vx, -SPEED, SPEED);
-    n.vy = constrain(n.vy, -SPEED, SPEED);
-    if (n.x < 0) n.x += width;
-    if (n.x > width) n.x -= width;
-    if (n.y < 0) n.y += HEIGHT;
-    if (n.y > HEIGHT) n.y -= HEIGHT;
-  }
-  for (let i = 0; i < nodes.length; i++) {
-    for (let j = i + 1; j < nodes.length; j++) {
-      const a = nodes[i], b = nodes[j];
-      const d = dist(a.x, a.y, b.x, b.y);
-      if (d < LINK_DISTANCE) {
-        const t = 1 - d / LINK_DISTANCE;
-        const alpha = LINE_BASE_ALPHA * t;
-        const w = LINE_MIN_THICK + t * (LINE_MAX_THICK - LINE_MIN_THICK);
-        strokeWeight(w);
-        stroke(FG_COLOR[0], FG_COLOR[1], FG_COLOR[2], alpha);
-        line(a.x, a.y, b.x, b.y);
-      }
-    }
-  }
-  noStroke();
-  fill(FG_COLOR[0], FG_COLOR[1], FG_COLOR[2]);
-  for (let n of nodes) circle(n.x, n.y, NODE_SIZE);
-}
+(() => {
+  // Quarto places this include inside main on about pages. Attach the motif to
+  // the actual navbar so it follows the header and its collapsed mobile menu.
+  const navbar = document.querySelector('#quarto-header .navbar');
+  const network = document.getElementById('nav-network');
+  if (navbar && network) navbar.prepend(network);
+})();
 </script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Extra Projects</h1>
+<h1 class="title">Applied Work</h1>
 </div>
 
 
@@ -226,31 +185,37 @@ function draw() {
 </header>
 
 
-<section id="machine-learning-and-decision-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="machine-learning-and-decision-analysis">Machine Learning and Decision Analysis</h2>
-<section id="loan-default-prediction-and-lending-decision-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="loan-default-prediction-and-lending-decision-analysis"><strong>Loan Default Prediction and Lending Decision Analysis</strong></h3>
-<p>A credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.</p>
-<p>The analysis compares logistic regression, tree-based models, ensemble methods, and XGBoost, then evaluates not only classification performance but also the expected financial loss from false approvals and false rejections. The project highlights why lending models should be assessed using decision-relevant costs rather than accuracy alone.</p>
-<p><strong>Tools and methods:</strong> Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.</p>
+<p>These independent projects apply economic reasoning, data analysis and simulation to decision problems. They illustrate my methods and interests alongside my academic research.</p>
+<section id="loan-default-prediction-and-lending-decision-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="loan-default-prediction-and-lending-decision-analysis">Loan Default Prediction and Lending Decision Analysis</h2>
+<p><strong>Question.</strong> How should a lender assess default predictions when false approvals and false rejections have different costs?</p>
+<p><strong>Approach.</strong> Using the HMEQ home-equity loan dataset, I compare logistic regression, tree-based models, ensemble methods and XGBoost. The analysis considers classification performance, decision thresholds and the expected loss from lending errors.</p>
+<p><strong>Insight and relevance.</strong> Model assessment needs to reflect the costs of the decisions it informs. The project connects predictive modelling with lending decisions through expected-loss analysis.</p>
+<p><strong>Limitations.</strong> Conclusions depend on this dataset and the assumed costs of lending errors. Performance in a live lending setting would require separate validation.</p>
+<p><strong>Tools and methods:</strong> Python, scikit-learn, XGBoost, threshold optimisation, expected-loss analysis and SHAP.</p>
 <p><a href="https://github.com/ddmarco84/project">View project on GitHub</a></p>
-<p><br></p>
+<hr>
 </section>
-</section>
-<section id="agent-based-simulation-and-network-economics" class="level2">
-<h2 class="anchored" data-anchor-id="agent-based-simulation-and-network-economics">Agent-Based Simulation and Network Economics</h2>
-<section id="network-segregation-model" class="level3">
-<h3 class="anchored" data-anchor-id="network-segregation-model"><strong>Network Segregation Model</strong></h3>
-<p>This NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.</p>
-<p>Agents belong to one of two groups and evaluate their immediate network neighbourhood according to the share of same-type neighbours. The version implemented here uses a <strong>threshold-flat utility function</strong>: agents want at least a chosen share of similar neighbours, but once this threshold is reached they receive no additional benefit from further homogeneity. In other words, agents do not directly seek full segregation; they only require “enough” similarity.</p>
-<p>Links are also costly to maintain. Agents therefore balance the benefit of satisfying their similarity threshold against the cost of holding connections. When agents are unhappy, they may cut, create, or rewire links if doing so improves their own utility.</p>
-<p>The model shows how decentralised individual decisions can generate unintended aggregate segregation. Even moderate similarity thresholds can gradually reduce cross-group links and produce clustered networks, because agents do not fully internalise how their link choices affect others.</p>
-<p><strong>How to use the model:</strong> choose the number of agents with the <strong>buttons</strong> slider, set the desired similarity threshold with <strong>%-similar-wanted</strong>, and adjust the link cost and payoff parameters. Press <strong>Setup</strong> to create the initial random network, then press <strong>Go</strong> to let unhappy agents update their links until the network reaches a stable outcome.</p>
-<p>Key outputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.</p>
-<p><br></p>
-<iframe src="netlogo/model_threshold.html" width="100%" height="850" style="border: 1px solid #ddd; border-radius: 8px;">
+<section id="network-segregation-model" class="level2">
+<h2 class="anchored" data-anchor-id="network-segregation-model">Network Segregation Model</h2>
+<p><strong>Question.</strong> How can individual choices about whom to connect to produce segregation across a network?</p>
+<p><strong>Approach.</strong> This NetLogo simulation adapts Schelling’s segregation model to network formation. Agents weigh the cost of links against a preference for having at least a chosen share of neighbours from their own group.</p>
+<p><strong>Insight and relevance.</strong> Individual link choices can produce segregated networks even when agents gain no additional benefit from similarity beyond their chosen threshold. The model provides a way to explore how individual incentives and network effects interact.</p>
+<p><strong>Limitations.</strong> This is an illustrative model. Outcomes depend on the behavioural rules, initial network and parameter choices.</p>
+<p><strong>Tools and methods:</strong> NetLogo, agent-based simulation and network analysis.</p>
+<details>
+<summary>
+Model details and instructions
+</summary>
+<p>Agents belong to one of two groups and evaluate the share of same-type neighbours in their immediate network. The model uses a <strong>threshold-flat utility function</strong>: agents want at least a chosen share of similar neighbours, but receive no further benefit from homogeneity once that threshold is reached.</p>
+<p>Links are costly to maintain. Unhappy agents may cut, create or rewire links when doing so improves their utility.</p>
+<p>To run the model, choose the number of agents with the <strong>buttons</strong> slider, set <strong>%-similar-wanted</strong>, and adjust the link cost and payoff parameters. Press <strong>Setup</strong> to create an initial random network, then <strong>Go</strong> to let agents update their links.</p>
+<p>Outputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient and average welfare.</p>
+</details>
+<section id="explore-the-model" class="level3">
+<h3 class="anchored" data-anchor-id="explore-the-model">Explore the model</h3>
+<iframe src="netlogo/model_threshold.html" title="Interactive network segregation model" loading="lazy" width="100%" height="850" style="border: 1px solid #ddd; border-radius: 8px;">
 </iframe>
-<p><br></p>
 <p><a href="netlogo/model_threshold.html">Open the model in a separate page</a></p>
 
 
@@ -669,23 +634,20 @@ function draw() {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/ddmarco84">
+<p>GitHub</p>
+</a>
   </li>  
-    <li class="nav-item compact">
+    <li class="nav-item">
     <a class="nav-link" href="https://www.linkedin.com/in/marcopelliccia">
-      <i class="bi bi-linkedin" role="img">
-</i> 
-    </a>
+<p>LinkedIn</p>
+</a>
   </li>  
-    <li class="nav-item compact">
+    <li class="nav-item">
     <a class="nav-link" href="mailto:mpellicciawork@gmail.com">
-      <i class="bi bi-envelope" role="img">
-</i> 
-    </a>
+<p>Email</p>
+</a>
   </li>  
 </ul>
     </div>
