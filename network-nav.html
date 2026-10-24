@@ -1,4 +1,4 @@
-<!-- A static, decorative network: no external library or continuous motion. -->
+<!-- Decorative network; the original SVG remains the reduced-motion fallback. -->
 <svg id="nav-network" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 96"
      preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
   <g fill="none" stroke="#9cddb3" stroke-width="0.75">
@@ -24,6 +24,114 @@
   // the actual navbar so it follows the header and its collapsed mobile menu.
   const navbar = document.querySelector('#quarto-header .navbar');
   const network = document.getElementById('nav-network');
-  if (navbar && network) navbar.prepend(network);
+  if (!navbar || !network) return;
+  navbar.prepend(network);
+
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const svgNS = 'http://www.w3.org/2000/svg';
+  const staticGroups = Array.from(network.children);
+  const animatedGroup = document.createElementNS(svgNS, 'g');
+  const links = document.createElementNS(svgNS, 'path');
+  links.setAttribute('fill', 'none');
+  links.setAttribute('stroke', '#9cddb3');
+  links.setAttribute('stroke-width', '0.85');
+  animatedGroup.append(links);
+  animatedGroup.setAttribute('display', 'none');
+  network.append(animatedGroup);
+
+  let width = 0;
+  let height = 0;
+  let nodes = [];
+  let frame = null;
+  let previousTime = null;
+
+  function draw() {
+    const edges = [];
+    for (let i = 0; i < nodes.length; i++) {
+      const a = nodes[i];
+      a.element.setAttribute('cx', a.x.toFixed(1));
+      a.element.setAttribute('cy', a.y.toFixed(1));
+      for (let j = i + 1; j < nodes.length; j++) {
+        const b = nodes[j];
+        if ((a.x - b.x) ** 2 + (a.y - b.y) ** 2 < 125 ** 2) {
+          edges.push(`M${a.x.toFixed(1)} ${a.y.toFixed(1)}L${b.x.toFixed(1)} ${b.y.toFixed(1)}`);
+        }
+      }
+    }
+    links.setAttribute('d', edges.join(' '));
+  }
+
+  function resize() {
+    if (reducedMotion.matches) return;
+    const bounds = navbar.getBoundingClientRect();
+    const nextWidth = Math.max(1, bounds.width);
+    const nextHeight = Math.max(1, bounds.height);
+    for (const node of nodes) {
+      node.x *= nextWidth / width;
+      node.y *= nextHeight / height;
+    }
+    width = nextWidth;
+    height = nextHeight;
+    network.setAttribute('viewBox', `0 0 ${width} ${height}`);
+
+    const count = Math.max(12, Math.min(40, Math.round(width / 32)));
+    while (nodes.length > count) nodes.pop().element.remove();
+    while (nodes.length < count) {
+      const element = document.createElementNS(svgNS, 'circle');
+      element.setAttribute('r', '1.8');
+      element.setAttribute('fill', '#c6f1d5');
+      animatedGroup.append(element);
+      const angle = Math.random() * Math.PI * 2;
+      nodes.push({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        vx: Math.cos(angle) * 14,
+        vy: Math.sin(angle) * 14,
+        element
+      });
+    }
+    draw();
+  }
+
+  function animate(time) {
+    frame = null;
+    if (reducedMotion.matches || document.hidden) return;
+    const elapsed = previousTime === null ? 0 : Math.min((time - previousTime) / 1000, 0.05);
+    previousTime = time;
+    for (const node of nodes) {
+      node.x += node.vx * elapsed;
+      node.y += node.vy * elapsed;
+      if (node.x < 0 || node.x > width) {
+        node.x = Math.max(0, Math.min(width, node.x));
+        node.vx *= -1;
+      }
+      if (node.y < 0 || node.y > height) {
+        node.y = Math.max(0, Math.min(height, node.y));
+        node.vy *= -1;
+      }
+    }
+    draw();
+    frame = requestAnimationFrame(animate);
+  }
+
+  function updateMotion() {
+    if (frame !== null) cancelAnimationFrame(frame);
+    frame = null;
+    previousTime = null;
+    const reduced = reducedMotion.matches;
+    for (const group of staticGroups) group.setAttribute('display', reduced ? 'inline' : 'none');
+    animatedGroup.setAttribute('display', reduced ? 'none' : 'inline');
+    if (reduced) {
+      network.setAttribute('viewBox', '0 0 1440 96');
+    } else {
+      resize();
+      if (!document.hidden) frame = requestAnimationFrame(animate);
+    }
+  }
+
+  new ResizeObserver(resize).observe(navbar);
+  reducedMotion.addEventListener('change', updateMotion);
+  document.addEventListener('visibilitychange', updateMotion);
+  updateMotion();
 })();
 </script>
