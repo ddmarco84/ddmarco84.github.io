@@ -1,68 +1,78 @@
 ---
 title: "Marco Pelliccia"
-subtitle: "PhD · Birkbeck, University of London<br> Economist · Academic · Data Scientist"
+subtitle: "Economist<br>Managing Consultant at SQW"
+description-meta: &page-description "Marco Pelliccia is an economist and Managing Consultant at SQW, with a background in network economics, game theory, quantitative modelling and applied data analysis."
 image: images/profile.jpg
+image-alt: "Portrait of Marco Pelliccia"
+open-graph:
+  description: *page-description
+twitter-card:
+  description: *page-description
 page-layout: full
 about:
   template: trestles
+  image-width: 17rem
+  image-shape: rounded
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/marcopelliccia
     - icon: envelope
       text: Email
       href: mailto:mpellicciawork@gmail.com
 ---
 
+::: {.home-intro}
+## About
 
+I am an economist and Managing Consultant at [SQW](https://www.sqw.co.uk/). My background combines research in network economics and game theory with quantitative modelling and applied data analysis. I am interested in how incentives and connections between people, organisations, and markets shape economic outcomes.
 
+Alongside my role at SQW, I continue to teach part time at Heriot-Watt University until December 2026.
 
+::: {.home-actions}
+[Explore applied work](projects.qmd){.btn .btn-primary}
+[View CV (PDF)](files/Marco-Pelliccia-CV.pdf){.btn .btn-outline-primary}
+:::
+:::
 
-## About 
+## Areas of expertise
 
-I am an economist and Assistant Professor at Edinburgh Business School, Heriot-Watt University. I hold a PhD in Economics from Birkbeck, University of London, where I specialised in the **economics of networks** and **game theory**.
+::: {.expertise-list}
+### Economic analysis and incentives
 
-My research focuses on how strategic interactions and interdependencies across agents shape economic outcomes, with applications to **market design**, **policy analysis**, and **risk** in interconnected systems.
+Understanding behaviour, strategic interactions, and policy choices through microeconomics and game theory.
 
-I have over ten years' experience in higher education, teaching courses in microeconomics, game theory, and economic policy. I have also completed the MIT Applied Data Science Program, where I developed applied skills in machine learning, statistical modelling, and AI for data-driven decision-making.
+### Networks and interdependencies
 
-[Download CV](https://www.dropbox.com/scl/fi/n0wkjcrwjxm8phx2dq726/CV_MP.pdf?rlkey=cx2f5yeqqj0vmzupmdwbetg2v&e=1&st=jq6t2pyb&dl=0){.btn .btn-outline-primary target="_blank"}
+Examining how connections between people, organisations, and markets shape outcomes and transmit risks.
 
-## Research Interests
+### Data analysis and modelling
 
-- Microeconomic Theory
-- Network Economics & Game Theory
-- Market Design & Policy Analysis
-- Machine Learning & Data-Driven Analysis
+Using statistical methods, machine learning, and simulation to investigate decisions and their consequences.
+:::
 
+## Background
 
-## News
+I hold a PhD in Economics from Birkbeck, University of London, where I specialised in network economics and game theory. I have over ten years' experience in higher education, including research and teaching in microeconomics, game theory, and economic policy.
+
+I have also completed the MIT Applied Data Science Program, developing applied skills in machine learning and statistical modelling. My [research](research.qmd) and [independent projects](projects.qmd) bring these interests together.
+
+## Recent updates
 
 <ul class="news-list">
-  <li class="news-recent">Presented at TMF in London, January 2026, UK</li>
-  <li class="news-old">Presented at CMID24 in Budapest, June 2024, HU</li>
-  <li class="news-old">Presented at CoED23 in Girona, June 2023, ES</li>
-  <li class="news-old">Presented Networks and Econ Policy to Scottish Government Assistant Economists meeting, March 2023, UK</li>
-  <li class="news-old">Attended SGPE Conference in Crieff, January 2023, UK</li>
-  <li class="news-old">Presented at 2022 European ESA, August 2022, IT</li>
-  <li class="news-old">Presented at SUNBELT 2022, July 2022, AU</li>
-  <li class="news-old">Presented the CNEE Workshop "Economics of Networks", May 2022</li>
+  <li><time datetime="2026-10-26">October 2026</time><span>Joined SQW as Managing Consultant.</span></li>
+  <li><time datetime="2026-01">January 2026</time><span>Presented at TMF in London.</span></li>
 </ul>
 
+<details class="news-archive">
+<summary>Earlier talks and conferences</summary>
 
-<!--
-## Ask about research, teaching, and background
+- **June 2024:** Presented at CMID24 in Budapest.
+- **June 2023:** Presented at CoED23 in Girona.
+- **March 2023:** Presented Networks and Economic Policy at the Scottish Government Assistant Economists meeting.
+- **January 2023:** Attended the SGPE Conference in Crieff.
+- **August 2022:** Presented at the European ESA conference.
+- **July 2022:** Presented at SUNBELT.
+- **May 2022:** Presented at the CNEE workshop, Economics of Networks.
 
-
-
-
-```{=html}
-<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/5.49.1/gradio.js"></script>
-<div style="width: 100%; margin: 20px 0;">
-  <div style="width: 100%; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; min-height: 500px;">
-    <gradio-app style="width: 100%;" src="https://ddmarco-career-conversation.hf.space"></gradio-app>
-  </div>
-</div>
-```
--->
-
+</details>

@@ -1,28 +1,53 @@
 project:
   type: website
+  render:
+    - index.qmd
+    - projects.qmd
+    - research.qmd
+    - teaching.qmd
+  resources:
+    - CNAME
+    - netlogo/model_threshold.html
+    - files/Marco-Pelliccia-CV.pdf
 
 website:
   title: "Marco Pelliccia"
+  site-url: https://marcopelliccia.com
+  description: "Economist and Managing Consultant at SQW. Research and applied work in network economics, game theory and data analysis."
+  image: images/profile.jpg
+  image-alt: "Portrait of Marco Pelliccia"
+  open-graph:
+    locale: en_GB
+  twitter-card:
+    card-style: summary
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: projects.qmd
+        text: Applied Work
       - href: research.qmd
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: projects.qmd
-        text: Projects
 
   page-footer:
     left: "© Marco Pelliccia"
     right:
       - icon: github
-        href: https://github.com
+        text: GitHub
+        aria-label: "Marco Pelliccia on GitHub"
+        href: https://github.com/ddmarco84
       - icon: linkedin
+        text: LinkedIn
+        aria-label: "Marco Pelliccia on LinkedIn"
         href: https://www.linkedin.com/in/marcopelliccia
       - icon: envelope
+        text: Email
+        aria-label: "Email Marco Pelliccia"
         href: mailto:mpellicciawork@gmail.com
+
+lang: en-GB
 
 format:
   html:

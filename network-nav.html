@@ -1,81 +1,29 @@
-<style>
-#nav-network {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  z-index: 1;
-  overflow: hidden;
-}
-</style>
-<div id="nav-network"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+<!-- A static, decorative network: no external library or continuous motion. -->
+<svg id="nav-network" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 96"
+     preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <g fill="none" stroke="#9cddb3" stroke-width="0.75">
+    <path d="M-20 78 70 22 146 64 225 13 306 60 390 27 470 79 548 33 634 68 710 15 795 58 878 21 958 72 1040 29 1120 66 1205 15 1288 57 1370 24 1460 75"/>
+    <path d="M-20 78 146 64 306 60 470 79 634 68 795 58 958 72 1120 66 1288 57 1460 75M70 22 225 13 390 27 548 33 710 15 878 21 1040 29 1205 15 1370 24"/>
+    <path d="M70 22 106 94 225 13M390 27 425 103 548 33M710 15 752 96 878 21M1040 29 1080 103 1205 15M1370 24 1406 96"/>
+  </g>
+  <g fill="#c6f1d5">
+    <circle cx="70" cy="22" r="2"/><circle cx="146" cy="64" r="2"/>
+    <circle cx="225" cy="13" r="2"/><circle cx="306" cy="60" r="2"/>
+    <circle cx="390" cy="27" r="2"/><circle cx="470" cy="79" r="2"/>
+    <circle cx="548" cy="33" r="2"/><circle cx="634" cy="68" r="2"/>
+    <circle cx="710" cy="15" r="2"/><circle cx="795" cy="58" r="2"/>
+    <circle cx="878" cy="21" r="2"/><circle cx="958" cy="72" r="2"/>
+    <circle cx="1040" cy="29" r="2"/><circle cx="1120" cy="66" r="2"/>
+    <circle cx="1205" cy="15" r="2"/><circle cx="1288" cy="57" r="2"/>
+    <circle cx="1370" cy="24" r="2"/>
+  </g>
+</svg>
 <script>
-const NODES = 40;
-const LINK_DISTANCE = 110;
-const SPEED = 0.35;
-const NODE_SIZE = 2;
-const LINE_BASE_ALPHA = 120;
-const LINE_MAX_THICK = 1.6;
-const LINE_MIN_THICK = 0.3;
-const FG_COLOR = [255, 255, 255];
-const BG_COLOR = [30, 30, 30];
-const HEIGHT = 60;
-let nodes = [];
-let holder;
-let c;
-function setup() {
-  holder = document.getElementById('nav-network');
-  c = createCanvas(windowWidth, HEIGHT);
-  c.parent(holder);
-  pixelDensity(1);
-  initNodes();
-}
-function windowResized() {
-  resizeCanvas(windowWidth, HEIGHT);
-}
-function initNodes() {
-  nodes = [];
-  for (let i = 0; i < NODES; i++) {
-    nodes.push({
-      x: random(width),
-      y: random(HEIGHT),
-      vx: random(-SPEED, SPEED),
-      vy: random(-SPEED, SPEED)
-    });
-  }
-}
-function draw() {
-  background(BG_COLOR[0], BG_COLOR[1], BG_COLOR[2]);
-  for (let n of nodes) {
-    n.x += n.vx;
-    n.y += n.vy;
-    n.vx += random(-0.02, 0.02);
-    n.vy += random(-0.02, 0.02);
-    n.vx = constrain(n.vx, -SPEED, SPEED);
-    n.vy = constrain(n.vy, -SPEED, SPEED);
-    if (n.x < 0) n.x += width;
-    if (n.x > width) n.x -= width;
-    if (n.y < 0) n.y += HEIGHT;
-    if (n.y > HEIGHT) n.y -= HEIGHT;
-  }
-  for (let i = 0; i < nodes.length; i++) {
-    for (let j = i + 1; j < nodes.length; j++) {
-      const a = nodes[i], b = nodes[j];
-      const d = dist(a.x, a.y, b.x, b.y);
-      if (d < LINK_DISTANCE) {
-        const t = 1 - d / LINK_DISTANCE;
-        const alpha = LINE_BASE_ALPHA * t;
-        const w = LINE_MIN_THICK + t * (LINE_MAX_THICK - LINE_MIN_THICK);
-        strokeWeight(w);
-        stroke(FG_COLOR[0], FG_COLOR[1], FG_COLOR[2], alpha);
-        line(a.x, a.y, b.x, b.y);
-      }
-    }
-  }
-  noStroke();
-  fill(FG_COLOR[0], FG_COLOR[1], FG_COLOR[2]);
-  for (let n of nodes) circle(n.x, n.y, NODE_SIZE);
-}
+(() => {
+  // Quarto places this include inside main on about pages. Attach the motif to
+  // the actual navbar so it follows the header and its collapsed mobile menu.
+  const navbar = document.querySelector('#quarto-header .navbar');
+  const network = document.getElementById('nav-network');
+  if (navbar && network) navbar.prepend(network);
+})();
 </script>

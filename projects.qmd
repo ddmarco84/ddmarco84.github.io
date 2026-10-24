@@ -1,50 +1,65 @@
 ---
-title: "Extra Projects"
+title: "Applied Work"
+description-meta: &page-description "Independent projects in credit-risk modelling, decision analysis and network simulation by Marco Pelliccia."
+open-graph:
+  description: *page-description
+twitter-card:
+  description: *page-description
 page-layout: full
 ---
 
+These independent projects apply economic reasoning, data analysis and simulation to decision problems. They illustrate my methods and interests alongside my academic research.
 
-## Machine Learning and Decision Analysis
+## Loan Default Prediction and Lending Decision Analysis
 
-### **Loan Default Prediction and Lending Decision Analysis**
+**Question.** How should a lender assess default predictions when false approvals and false rejections have different costs?
 
-A credit-risk modelling project using the HMEQ home-equity loan dataset to predict borrower default and assess lending decisions under asymmetric costs.
+**Approach.** Using the HMEQ home-equity loan dataset, I compare logistic regression, tree-based models, ensemble methods and XGBoost. The analysis considers classification performance, decision thresholds and the expected loss from lending errors.
 
-The analysis compares logistic regression, tree-based models, ensemble methods, and XGBoost, then evaluates not only classification performance but also the expected financial loss from false approvals and false rejections. The project highlights why lending models should be assessed using decision-relevant costs rather than accuracy alone.
+**Insight and relevance.** Model assessment needs to reflect the costs of the decisions it informs. The project connects predictive modelling with lending decisions through expected-loss analysis.
 
-**Tools and methods:** Python, scikit-learn, XGBoost, model evaluation, threshold optimisation, expected-loss analysis, SHAP.
+**Limitations.** Conclusions depend on this dataset and the assumed costs of lending errors. Performance in a live lending setting would require separate validation.
+
+**Tools and methods:** Python, scikit-learn, XGBoost, threshold optimisation, expected-loss analysis and SHAP.
 
 [View project on GitHub](https://github.com/ddmarco84/project)
 
-<br>
+---
 
-## Agent-Based Simulation and Network Economics
+## Network Segregation Model
 
-### **Network Segregation Model**
+**Question.** How can individual choices about whom to connect to produce segregation across a network?
 
-This NetLogo project explores how segregation can emerge in a social network. The model is inspired by Schelling’s classic segregation model, but replaces spatial movement with network link formation: agents do not move across locations, they choose whom to connect to.
+**Approach.** This NetLogo simulation adapts Schelling’s segregation model to network formation. Agents weigh the cost of links against a preference for having at least a chosen share of neighbours from their own group.
 
-Agents belong to one of two groups and evaluate their immediate network neighbourhood according to the share of same-type neighbours. The version implemented here uses a **threshold-flat utility function**: agents want at least a chosen share of similar neighbours, but once this threshold is reached they receive no additional benefit from further homogeneity. In other words, agents do not directly seek full segregation; they only require “enough” similarity.
+**Insight and relevance.** Individual link choices can produce segregated networks even when agents gain no additional benefit from similarity beyond their chosen threshold. The model provides a way to explore how individual incentives and network effects interact.
 
-Links are also costly to maintain. Agents therefore balance the benefit of satisfying their similarity threshold against the cost of holding connections. When agents are unhappy, they may cut, create, or rewire links if doing so improves their own utility.
+**Limitations.** This is an illustrative model. Outcomes depend on the behavioural rules, initial network and parameter choices.
 
-The model shows how decentralised individual decisions can generate unintended aggregate segregation. Even moderate similarity thresholds can gradually reduce cross-group links and produce clustered networks, because agents do not fully internalise how their link choices affect others.
+**Tools and methods:** NetLogo, agent-based simulation and network analysis.
 
+<details>
+<summary>Model details and instructions</summary>
 
+Agents belong to one of two groups and evaluate the share of same-type neighbours in their immediate network. The model uses a **threshold-flat utility function**: agents want at least a chosen share of similar neighbours, but receive no further benefit from homogeneity once that threshold is reached.
 
-**How to use the model:** choose the number of agents with the **buttons** slider, set the desired similarity threshold with **%-similar-wanted**, and adjust the link cost and payoff parameters. Press **Setup** to create the initial random network, then press **Go** to let unhappy agents update their links until the network reaches a stable outcome.
+Links are costly to maintain. Unhappy agents may cut, create or rewire links when doing so improves their utility.
 
-Key outputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient, the ghetto rate, and average welfare.
+To run the model, choose the number of agents with the **buttons** slider, set **%-similar-wanted**, and adjust the link cost and payoff parameters. Press **Setup** to create an initial random network, then **Go** to let agents update their links.
 
-<br>
+Outputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient and average welfare.
+
+</details>
+
+### Explore the model
 
 <iframe 
   src="netlogo/model_threshold.html"
+  title="Interactive network segregation model"
+  loading="lazy"
   width="100%"
   height="850"
   style="border: 1px solid #ddd; border-radius: 8px;">
 </iframe>
-
-<br>
 
 [Open the model in a separate page](netlogo/model_threshold.html)

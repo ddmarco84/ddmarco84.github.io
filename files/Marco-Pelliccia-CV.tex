@@ -1,0 +1,105 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\definecolor{linkblue}{HTML}{0645AD}
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue}
+\newcommand{\cvlink}[2]{\href{#1}{\textcolor{linkblue}{\underline{#2}}}}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+
+\begin{document}
+
+\noindent
+{\Huge \textbf{Dr Marco Pelliccia}} \\ [4pt]
+{\large Economist | Managing Consultant at SQW} \\ [8pt]
+\noindent \cvlink{mailto:mpellicciawork@gmail.com}{mpellicciawork@gmail.com} | +44 7400 016484 | \cvlink{https://www.marcopelliccia.com}{Personal Website} | \cvlink{https://github.com/ddmarco84/project}{GitHub}
+
+\section{Professional Summary}
+Applied economist and Managing Consultant at SQW, with a PhD from Birkbeck, University of London, and over ten years' experience in microeconomics, game theory, network analysis, and policy analysis. Combines rigorous quantitative modelling with Python-based data science, including credit-risk and lead-conversion projects through the MIT Applied Data Science Program. Experienced in translating technical analysis into decision-focused outputs for teaching, research, and programme delivery.
+
+\section{Applied Data Science Projects}
+\textbf{Loan Default Prediction (MIT Capstone)} | \cvlink{https://github.com/ddmarco84/project}{GitHub} \hfill Oct 2025
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item Built a credit-risk decision prototype for HMEQ home-equity loans, comparing six classifiers to identify borrowers with elevated default risk.
+    \item Selected XGBoost as the strongest held-out model (ROC-AUC 0.964; default recall 0.832; F1 0.814), then optimised the lending threshold to minimise expected losses.
+    \item Used SHAP to translate predictions into explainable risk drivers: debt burden, credit history, loan size, and property variables.
+\end{itemize}
+
+\noindent\textbf{Predicting Potential Customers (MIT Elective)} | \cvlink{https://www.mygreatlearning.com/eportfolio/marco-pelliccia}{Portfolio} \hfill Oct 2025
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item Built a lead-prioritisation pipeline for 4,612 ExtraaLearn leads, selecting the contact threshold on validation data before final test evaluation.
+    \item Delivered an operational lead-scoring file with predicted conversion probabilities, priority bands, and recommended outreach actions.
+    \item On the test set, achieved ROC-AUC 0.926 and average precision 0.839; the top 10\% of scored leads converted at 91.4\%, about 3.1x the base rate.
+\end{itemize}
+
+\section{Professional Experience}
+
+\textbf{Managing Consultant} \hfill Oct 2026 -- Present \\
+\textit{SQW}
+
+\vspace{4pt}
+\noindent\textbf{Assistant Professor in Economics} \hfill Apr 2020 -- Present \\
+\textit{Edinburgh Business School, Heriot-Watt University} \hfill Edinburgh, UK \\
+\textit{Continuing part-time teaching through December 2026.}
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item Apply microeconomic theory, policy analysis, and quantitative reasoning in UG/PG teaching, using Python-based case studies to connect formal models to applied decision problems.
+    \item As \textbf{Programme Director}, led curriculum modernization of three undergraduate economics programmes, producing clearer learning outcomes and quality-assurance documentation aligned with professional standards.
+    \item Coordinated teaching teams and programme delivery across multiple campuses, maintaining academic standards across planning, workload allocation, and assessment processes.
+    \item Supervise PhD candidates, guiding research projects from methodology design to final thesis delivery.
+\end{itemize}
+
+\noindent\textbf{Assistant Professor in Economics} \hfill Jan 2016 -- Apr 2020 \\
+\textit{Bangor Business School, Bangor University} \hfill Bangor, UK
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item Designed and delivered microeconomics and game theory courses focused on strategic reasoning, mathematical modelling, and policy applications.
+    \item Supervised student dissertations and produced research-led teaching materials translating formal economic models into applied decision problems.
+\end{itemize}
+
+\noindent\textbf{Senior Teaching Fellow} \hfill Sept 2014 -- Jun 2015 \\
+\textit{SOAS, University of London} \hfill London, UK
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item Designed and delivered quantitative methods courses, communicating technical material to diverse UG/PG student cohorts.
+\end{itemize}
+
+\newpage
+
+\section{Skills}
+\textbf{Programming \& Data:} Python (pandas, scikit-learn, XGBoost, matplotlib, SHAP), Java, Wolfram Mathematica. \\
+\textbf{Economics \& Statistics:} Econometrics, causal inference, game theory, network analysis, behavioural economics, economic modelling. \\
+\textbf{Tools:} MS Office, GitHub, UciNet, Gephi. \\
+\textbf{Languages:} Italian (native), English (fluent), French (fluent), Spanish (fair).
+
+\section{Education}
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+\textbf{Applied Data Science Program}, MIT Professional Education (Top 1\% of cohort). & 2025 \\
+\textbf{PhD in Economics (Economics of Networks)}, Birkbeck, University of London & 2016 \\
+\textbf{MSc in Economics}, Queen Mary College, University of London & 2010 \\
+\textbf{MSc in Economics}, University of Siena & 2009 \\
+\textbf{BSc in Economics and Finance}, Polytechnic University of Marche & 2007 \\
+\end{tabular*}
+
+\section{Selected Research}
+Selected research on incentive design, networks, network security, and mechanism design.
+\begin{itemize}[noitemsep, topsep=2pt]
+\item \textbf{Too Much Finance: Mechanisms That Harm Growth and Policy Implications} (with A. Daripa and S. Kapur), \textit{The Manchester School}: 1–20. https://doi.org/10.1111/manc.70060 (2026).
+    \item \textbf{Incentive Design on Networks} (with A. Daripa and S. Kapur), SSRN 4312506 (2022).
+    \item \textbf{Network Structures and Credit Rating} (with A. Daripa and S. Kapur), SSRN 3446432 (2019).
+    \item \textbf{Decentralized Defence of a (Directed) Network Structure}, \textit{Defence and Peace Economics}, 2020.
+    \item \textbf{Centrality in Trade Networks and Investment in Security}, (with V. Bove, and L. Elia), \textit{Peace Economics, Peace Science and Public Policy} 2016.
+\end{itemize}
+
+\section{Awards \& Professional Development}
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item \textbf{Academic Excellence Award}, Birkbeck College (Top of PhD cohort).
+    \item \textbf{Excellence in Teaching Award}, Birkbeck College.
+    \item \textbf{ARS'11 Master Thesis Award}.
+    \item \textbf{Professional development}: Cambridge-INET and HCEO-Chicago Summer School (2014); Fundamentals of Teaching; Social Learning and Policy Design; Associate Fellow of the Higher Education Academy.
+\end{itemize}
+
+\end{document}

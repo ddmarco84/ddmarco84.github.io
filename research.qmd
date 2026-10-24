@@ -1,33 +1,61 @@
 ---
 title: "Research"
+description-meta: &page-description "Marco Pelliccia’s research on incentives, networks, financial systems and security, with links to papers."
+open-graph:
+  description: *page-description
+twitter-card:
+  description: *page-description
 page-layout: full
 ---
+
+My research examines how incentives and connections between people, firms and countries shape economic outcomes.
 
 ## Working Papers
 
 **Incentive Design on Networks** (with A. Daripa and S. Kapur)
-<br> We design a mechanism for network formation with privately known productivities that implements the socially optimal network through transfers based on opportunity costs, ensuring ex post incentive compatibility, pairwise stability, and budget balance.
-<br>[[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4312506)
+
+*How can incentives encourage people to form a network that benefits society when their productivity is private information?*
+
+We design a mechanism for network formation with privately known productivities that implements the socially optimal network through transfers based on opportunity costs, ensuring ex post incentive compatibility, pairwise stability, and budget balance.
+
+[Read working paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4312506)
 
 ---
 
 **Network Structures and Credit Rating** (with A. Daripa and S. Kapur)
-<br> We study whether productivity-consistent credit ratings can be inferred from endogenous network structure, showing that under suitable link costs equilibrium networks separate types and sustain ratings aligned with productivity.
-<br>[[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3446432)
+
+*Can the connections agents choose reveal information useful for credit ratings?*
+
+We study whether productivity-consistent credit ratings can be inferred from endogenous network structure, showing that under suitable link costs equilibrium networks separate types and sustain ratings aligned with productivity.
+
+[Read working paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3446432)
 
 ---
 
 ## Published Papers
 
 **Too Much Finance: Mechanisms That Harm Growth and Policy Implications** (with A. Daripa and S. Kapur), *The Manchester School*, 2026, 1–20.
-<br>[[DOI]](https://doi.org/10.1111/manc.70060)
+
+*When can the expansion of finance harm economic growth, and what does this imply for policy?*
+
+[Journal article](https://doi.org/10.1111/manc.70060)
 
 ---
 
 **Decentralized Defence of a (Directed) Network Structure**, *Defence and Peace Economics*, 2020.
-<br> I analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.
+
+*When do individual decisions about security protect a network as well as coordinated decisions?*
+
+I analyse how agents in a directed network allocate defence resources under external threats, showing that decentralised choices can be efficient with a strategic attacker but generally diverge from the social optimum under random attacks.
+
+[Journal article](https://doi.org/10.1080/10242694.2019.1587679)
 
 ---
 
 **Centrality in Trade Networks and Investment in Security** (with V. Bove and L. Elia), *Peace Economics, Peace Science and Public Policy*, 2016.
-<br> We show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions.
+
+*How does a country’s position in global trade networks relate to its military spending?*
+
+We show that a country’s position in global trade networks—measured by network centrality—systematically shapes and constrains its military spending decisions.
+
+[Journal article](https://doi.org/10.1515/peps-2015-0042)

@@ -1,28 +1,35 @@
 ---
 title: "Teaching"
+description-meta: &page-description "Marco Pelliccia’s teaching in microeconomics, game theory, economic policy and quantitative methods at Heriot-Watt University."
+open-graph:
+  description: *page-description
+twitter-card:
+  description: *page-description
 page-layout: full
 ---
 
-## Current courses
+Alongside my role at SQW, I continue to work part time at Heriot-Watt University to complete my teaching commitments through December 2026.
+
+## Selected courses
 
 **Introduction to Public Choice and Welfare Economics**
-<br> This course examines the economic foundations of public policy, focusing on how different normative frameworks define welfare, why market failures and social dilemmas arise, 
-and how policy interventions can address them, while accounting for strategic behaviour, institutional constraints, and ethical considerations in real-world policymaking.
+
+The economic foundations of public policy: welfare, market failures and social dilemmas, and the role of policy interventions. The course considers strategic behaviour, institutional constraints and ethical questions in policymaking.
 
 ---
 
 **Intermediate Economics I**
-<br> This course provides an intermediate-level foundation in microeconomics, focusing on how consumers, firms, and markets make decisions, 
-and developing the analytical tools needed to study consumer choice, firm behaviour, market structures, and strategic interaction through game theory, with an emphasis on applying theory to real-world economic problems and policy analysis.
+
+An intermediate foundation in microeconomics, covering consumer choice, firm behaviour, market structures and game theory, with applications to economic problems and policy analysis.
 
 ---
 
 **Games and Behaviour**
-<br> This course examines decision-making under risk and uncertainty, including deviations from standard expected utility theory, 
-and studies how such behaviour shapes strategic interaction using the tools of game theory, with applications to oligopoly markets where firms compete and coordinate under interdependence and incentives.
+
+Decision-making under risk and uncertainty, including departures from expected utility theory. Game theory provides the tools to study strategic interaction, with applications to competition and coordination in oligopoly markets.
 
 ---
 
 **Introduction to Economic and Financial Analysis**
-<br> This course provides a foundation in the mathematical tools used in economics and finance, covering algebra, functions, calculus, 
-and optimisation, with an emphasis on applying these methods to economic models and problems, and complementing analytical skills with basic Python programming for computational problem-solving.
+
+Mathematical tools for economics and finance, including algebra, functions, calculus and optimisation. Students apply these methods to economic models and develop basic Python skills for computational problem-solving.
