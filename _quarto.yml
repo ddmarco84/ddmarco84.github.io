@@ -25,7 +25,7 @@ website:
       - href: index.qmd
         text: Home
       - href: projects.qmd
-        text: Applied Work
+        text: Projects
       - href: research.qmd
         text: Research
       - href: teaching.qmd

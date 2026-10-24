@@ -1,5 +1,5 @@
 ---
-title: "Applied Work"
+title: "Projects"
 description-meta: &page-description "Independent projects in credit-risk modelling, decision analysis and network simulation by Marco Pelliccia."
 open-graph:
   description: *page-description

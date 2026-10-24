@@ -30,7 +30,6 @@ I am an economist and Managing Consultant at [SQW](https://www.sqw.co.uk/). My b
 Alongside my role at SQW, I continue to teach part time at Heriot-Watt University until December 2026.
 
 ::: {.home-actions}
-[Explore applied work](projects.qmd){.btn .btn-primary}
 [View CV (PDF)](files/Marco-Pelliccia-CV.pdf){.btn .btn-outline-primary}
 :::
 :::
