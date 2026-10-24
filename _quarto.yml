@@ -4,7 +4,6 @@ project:
     - index.qmd
     - projects.qmd
     - research.qmd
-    - teaching.qmd
   resources:
     - CNAME
     - netlogo/model_threshold.html
@@ -28,8 +27,6 @@ website:
         text: Projects
       - href: research.qmd
         text: Research
-      - href: teaching.qmd
-        text: Teaching
 
   page-footer:
     left: "© Marco Pelliccia"
