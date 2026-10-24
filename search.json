@@ -16,21 +16,21 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Applied Work",
+    "title": "Projects",
     "section": "",
     "text": "These independent projects apply economic reasoning, data analysis and simulation to decision problems. They illustrate my methods and interests alongside my academic research."
   },
   {
     "objectID": "projects.html#loan-default-prediction-and-lending-decision-analysis",
     "href": "projects.html#loan-default-prediction-and-lending-decision-analysis",
-    "title": "Applied Work",
+    "title": "Projects",
     "section": "Loan Default Prediction and Lending Decision Analysis",
     "text": "Loan Default Prediction and Lending Decision Analysis\nQuestion. How should a lender assess default predictions when false approvals and false rejections have different costs?\nApproach. Using the HMEQ home-equity loan dataset, I compare logistic regression, tree-based models, ensemble methods and XGBoost. The analysis considers classification performance, decision thresholds and the expected loss from lending errors.\nInsight and relevance. Model assessment needs to reflect the costs of the decisions it informs. The project connects predictive modelling with lending decisions through expected-loss analysis.\nLimitations. Conclusions depend on this dataset and the assumed costs of lending errors. Performance in a live lending setting would require separate validation.\nTools and methods: Python, scikit-learn, XGBoost, threshold optimisation, expected-loss analysis and SHAP.\nView project on GitHub"
   },
   {
     "objectID": "projects.html#network-segregation-model",
     "href": "projects.html#network-segregation-model",
-    "title": "Applied Work",
+    "title": "Projects",
     "section": "Network Segregation Model",
     "text": "Network Segregation Model\nQuestion. How can individual choices about whom to connect to produce segregation across a network?\nApproach. This NetLogo simulation adapts Schelling’s segregation model to network formation. Agents weigh the cost of links against a preference for having at least a chosen share of neighbours from their own group.\nInsight and relevance. Individual link choices can produce segregated networks even when agents gain no additional benefit from similarity beyond their chosen threshold. The model provides a way to explore how individual incentives and network effects interact.\nLimitations. This is an illustrative model. Outcomes depend on the behavioural rules, initial network and parameter choices.\nTools and methods: NetLogo, agent-based simulation and network analysis.\n\n\nModel details and instructions\n\nAgents belong to one of two groups and evaluate the share of same-type neighbours in their immediate network. The model uses a threshold-flat utility function: agents want at least a chosen share of similar neighbours, but receive no further benefit from homogeneity once that threshold is reached.\nLinks are costly to maintain. Unhappy agents may cut, create or rewire links when doing so improves their utility.\nTo run the model, choose the number of agents with the buttons slider, set %-similar-wanted, and adjust the link cost and payoff parameters. Press Setup to create an initial random network, then Go to let agents update their links.\nOutputs include the percentage of happy agents, the number of links, the share of same-type links, the clustering coefficient and average welfare.\n\n\nExplore the model\n\n\nOpen the model in a separate page"
   },
@@ -39,7 +39,7 @@
     "href": "index.html#about",
     "title": "Marco Pelliccia",
     "section": "About",
-    "text": "About\nI am an economist and Managing Consultant at SQW. My background combines research in network economics and game theory with quantitative modelling and applied data analysis. I am interested in how incentives and connections between people, organisations, and markets shape economic outcomes.\nAlongside my role at SQW, I continue to teach part time at Heriot-Watt University until December 2026.\n\nExplore applied work View CV (PDF)"
+    "text": "About\nI am an economist and Managing Consultant at SQW. My background combines research in network economics and game theory with quantitative modelling and applied data analysis. I am interested in how incentives and connections between people, organisations, and markets shape economic outcomes.\nAlongside my role at SQW, I continue to teach part time at Heriot-Watt University until December 2026.\n\nView CV (PDF)"
   },
   {
     "objectID": "index.html#areas-of-expertise",
