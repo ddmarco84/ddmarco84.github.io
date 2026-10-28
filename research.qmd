@@ -14,7 +14,7 @@ My research examines how incentives and connections between people, firms and co
 
 **Incentive Design on Networks** (with A. Daripa and S. Kapur)
 
-*How can incentives encourage people to form a network that benefits society when their productivity is private information?*
+*How can we design incentives to encourage the formation of productive connections when individual incentives do not necessarily lead to socially optimal outcomes?*
 
 We design a mechanism for network formation with privately known productivities that implements the socially optimal network through transfers based on opportunity costs, ensuring ex post incentive compatibility, pairwise stability, and budget balance.
 
@@ -24,7 +24,7 @@ We design a mechanism for network formation with privately known productivities 
 
 **Network Structures and Credit Rating** (with A. Daripa and S. Kapur)
 
-*Can the connections agents choose reveal information useful for credit ratings?*
+*How can we design a mechanism to infer private information about agents’ types by observing the connections they form?*
 
 We study whether productivity-consistent credit ratings can be inferred from endogenous network structure, showing that under suitable link costs equilibrium networks separate types and sustain ratings aligned with productivity.
 
